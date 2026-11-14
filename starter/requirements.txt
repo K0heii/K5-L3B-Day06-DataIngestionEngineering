@@ -1,4 +1,11 @@
-# Core setup and PDF parsing. Choose and install an embedding SDK separately.
+# Core setup, PDF/DOC parsing, local EmbeddingGemma 2 and persistent Chroma vector store.
 psycopg[binary]==3.3.8
-pypdf>=5,<7
+pypdf>=5,<8
 python-dotenv>=1,<2
+olefile>=0.47
+chromadb>=1.5.0
+sentence-transformers>=6.0.0
+torch>=2.10.0
+torchvision>=0.20.0
+Pillow>=10.0.0
+

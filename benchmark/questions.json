@@ -1,0 +1,331 @@
+{
+  "benchmark_name": "Day 06 Vietnamese Labor Law Retrieval Benchmark",
+  "created_at": "2026-11-14",
+  "frozen_before_retrieval_runs": true,
+  "split_methodology": "Tổng cộng 24 câu hỏi (18 câu dev / 6 câu test, vượt mức tối thiểu 15 dev / 5 test). Được phân tầng cân bằng theo tài liệu nguồn (mỗi split có 50% câu thuộc blld-2019 và 50% câu thuộc nd-145-2020), trải đều qua các Chương/Mục khác nhau để hạn chế rò rỉ ngữ cảnh giữa dev và test. Bao gồm đủ 4 nhóm câu hỏi: trực tiếp (truc_tiep), diễn đạt lại (dien_dat_lai), điều kiện/ngoại lệ (dieu_kien_ngoai_le), và kiểm tra lọc metadata (metadata_filter: 5 câu ở dev, 2 câu ở test; tổng 7 câu >= 3 câu bắt buộc).",
+  "leakage_risk_note": "Một số chủ đề có quy định khung ở Bộ luật Lao động và quy định chi tiết ở Nghị định 145/2020 (ví dụ: trợ cấp thôi việc ở q19, làm thêm giờ ở q06/q07 vs q24). Đối với câu có nhiều nguồn hợp lệ (q06, q19), benchmark ghi nhận đầy đủ vào trường alt_gold để bộ chấm chấp nhận bất kỳ nguồn hợp lệ nào theo đúng BENCHMARK.md.",
+  "pre_registered_selection_criteria": "Tiêu chí chọn chiến lược (chốt TRƯỚC khi xem tập test): (1) Ưu tiên cao nhất: Evidence Hit@3 trên tập dev (n/18); (2) Nếu hòa Evidence Hit@3 trên dev: xét Hit@1 trên tập dev (n/18) và tỷ lệ tuân thủ filter trên các câu dev có filter; (3) Nếu vẫn hòa: ưu tiên cấu hình có điểm mạch lạc (Chunk Coherence trung bình /2 trên 10 vị trí mẫu) cao hơn và số lượng chunk / thời gian truy xuất hợp lý hơn. Không dùng kết quả tập test để quay lại chỉnh tham số.",
+  "questions": [
+    {
+      "id": "q01",
+      "split": "dev",
+      "type": "truc_tiep",
+      "question": "Thời gian thử việc tối đa đối với công việc có chức danh nghề nghiệp cần trình độ chuyên môn, kỹ thuật từ cao đẳng trở lên là bao nhiêu ngày?",
+      "expected_answer": "Không quá 60 ngày (và chỉ được thử việc một lần đối với một công việc).",
+      "gold_source_id": "blld-2019",
+      "gold_page": 2,
+      "evidence_quote": "2. Không quá 60 ngày đối với công việc có chức danh nghề nghiệp cần trình độ chuyên môn, kỹ thuật từ cao đẳng trở lên;",
+      "filter": null,
+      "alt_gold": []
+    },
+    {
+      "id": "q02",
+      "split": "dev",
+      "type": "dieu_kien_ngoai_le",
+      "question": "Khi chuyển người lao động sang làm công việc khác so với hợp đồng lao động mà tiền lương công việc mới thấp hơn công việc cũ thì tiền lương được giải quyết thế nào?",
+      "expected_answer": "Được giữ nguyên tiền lương của công việc cũ trong thời hạn 30 ngày làm việc; tiền lương theo công việc mới ít nhất phải bằng 85% tiền lương của công việc cũ nhưng không thấp hơn mức lương tối thiểu.",
+      "gold_source_id": "blld-2019",
+      "gold_page": 3,
+      "evidence_quote": "Nếu tiền lương của công việc mới thấp hơn tiền lương của công việc cũ thì được giữ nguyên tiền lương của công việc cũ trong thời hạn 30 ngày làm việc. Tiền lương theo công việc mới ít nhất phải bằng 85% tiền lương của công việc cũ nhưng không thấp hơn mức lương tối thiểu.",
+      "filter": null,
+      "alt_gold": []
+    },
+    {
+      "id": "q03",
+      "split": "dev",
+      "type": "metadata_filter",
+      "question": "Người lao động làm việc theo hợp đồng lao động xác định thời hạn từ 12 tháng đến 36 tháng khi đơn phương chấm dứt hợp đồng lao động phải báo trước ít nhất bao nhiêu ngày?",
+      "expected_answer": "Theo quy định chung của Bộ luật Lao động là ít nhất 30 ngày (đối với ngành, nghề đặc thù theo Nghị định hướng dẫn là ít nhất 120 ngày).",
+      "gold_source_id": "blld-2019",
+      "gold_page": 4,
+      "evidence_quote": "b) Ít nhất 30 ngày nếu làm việc theo hợp đồng lao động xác định thời hạn có thời hạn từ 12 tháng đến 36 tháng;",
+      "filter": {
+        "document_type": "bo_luat"
+      },
+      "filter_rationale": "Ngữ cảnh người dùng tra cứu mức báo trước chung trong Bộ luật Lao động (document_type=bo_luat), tránh nhầm với quy định 120 ngày của ngành nghề đặc thù trong Nghị định 145/2020.",
+      "alt_gold": []
+    },
+    {
+      "id": "q04",
+      "split": "dev",
+      "type": "metadata_filter",
+      "question": "Đối với các ngành, nghề, công việc đặc thù như thành viên tổ lái tàu bay hoặc người quản lý doanh nghiệp, khi đơn phương chấm dứt hợp đồng lao động không xác định thời hạn hoặc xác định thời hạn từ 12 tháng trở lên thì phải báo trước ít nhất bao nhiêu ngày?",
+      "expected_answer": "Ít nhất 120 ngày.",
+      "gold_source_id": "nd-145-2020",
+      "gold_page": 3,
+      "evidence_quote": "a) Ít nhất 120 ngày đối với hợp đồng lao động không xác định thời hạn hoặc hợp đồng lao động xác định thời hạn từ 12 tháng trở lên;",
+      "filter": {
+        "document_type": "nghi_dinh"
+      },
+      "filter_rationale": "Câu hỏi tra cứu quy định chi tiết về ngành nghề đặc thù được Chính phủ hướng dẫn tại Nghị định (document_type=nghi_dinh).",
+      "alt_gold": []
+    },
+    {
+      "id": "q05",
+      "split": "dev",
+      "type": "truc_tiep",
+      "question": "Thời hạn cho thuê lại lao động đối với một người lao động tối đa là bao lâu?",
+      "expected_answer": "Tối đa là 12 tháng.",
+      "gold_source_id": "blld-2019",
+      "gold_page": 5,
+      "evidence_quote": "1. Thời hạn cho thuê lại lao động đối với người lao động tối đa là 12 tháng.",
+      "filter": null,
+      "alt_gold": []
+    },
+    {
+      "id": "q06",
+      "split": "dev",
+      "type": "dien_dat_lai",
+      "question": "Khi trả lương vào ban đêm và làm thêm giờ vào ngày thường, người lao động được hưởng mức phần trăm tiền lương tối thiểu là bao nhiêu?",
+      "expected_answer": "Làm thêm giờ vào ngày thường ít nhất bằng 150%; làm việc vào ban đêm được trả thêm ít nhất bằng 30% tiền lương của ngày làm việc bình thường.",
+      "gold_source_id": "blld-2019",
+      "gold_page": 10,
+      "evidence_quote": "a) Vào ngày thường, ít nhất bằng 150%;",
+      "filter": null,
+      "alt_gold": [
+        {
+          "gold_source_id": "nd-145-2020",
+          "gold_page": 11,
+          "evidence_quote": "Mức ít nhất 150% hoặc 200% hoặc 300%"
+        }
+      ]
+    },
+    {
+      "id": "q07",
+      "split": "dev",
+      "type": "dieu_kien_ngoai_le",
+      "question": "Giới hạn số giờ làm thêm trong 01 năm theo quy định chung là bao nhiêu giờ và trong trường hợp đặc biệt tối đa không quá bao nhiêu giờ?",
+      "expected_answer": "Không quá 200 giờ trong 01 năm theo quy định chung; một số ngành, nghề, công việc đặc biệt được làm thêm không quá 300 giờ trong 01 năm.",
+      "gold_source_id": "blld-2019",
+      "gold_page": 11,
+      "evidence_quote": "c) Bảo đảm số giờ làm thêm của người lao động không quá 200 giờ trong 01 năm, trừ trường hợp quy định tại khoản 3 Điều này.",
+      "filter": null,
+      "alt_gold": []
+    },
+    {
+      "id": "q08",
+      "split": "dev",
+      "type": "truc_tiep",
+      "question": "Lao động là người nước ngoài làm việc tại Việt Nam ngoài các ngày nghỉ lễ, tết chung còn được nghỉ thêm những ngày nào?",
+      "expected_answer": "Được nghỉ thêm 01 ngày Tết cổ truyền dân tộc và 01 ngày Quốc khánh của nước họ.",
+      "gold_source_id": "blld-2019",
+      "gold_page": 12,
+      "evidence_quote": "2. Lao động là người nước ngoài làm việc tại Việt Nam ngoài các ngày nghỉ theo quy định tại khoản 1 Điều này còn được nghỉ thêm 01 ngày Tết cổ truyền dân tộc và 01 ngày Quốc khánh của nước họ.",
+      "filter": null,
+      "alt_gold": []
+    },
+    {
+      "id": "q09",
+      "split": "dev",
+      "type": "metadata_filter",
+      "question": "Thời hiệu xử lý kỷ luật lao động thông thường là bao lâu và trường hợp vi phạm liên quan trực tiếp đến tài chính, tài sản, tiết lộ bí mật công nghệ, kinh doanh thì thời hiệu là bao nhiêu tháng?",
+      "expected_answer": "Thời hiệu thông thường là 06 tháng kể từ ngày xảy ra hành vi vi phạm; trường hợp liên quan trực tiếp đến tài chính, tài sản, tiết lộ bí mật công nghệ, bí mật kinh doanh thì thời hiệu là 12 tháng.",
+      "gold_source_id": "blld-2019",
+      "gold_page": 13,
+      "evidence_quote": "1. Thời hiệu xử lý kỷ luật lao động là 06 tháng kể từ ngày xảy ra hành vi vi phạm; trường hợp hành vi vi phạm liên quan trực tiếp đến tài chính, tài sản, tiết lộ bí mật công nghệ, bí mật kinh doanh của người sử dụng lao động thì thời hiệu xử lý kỷ luật lao động là 12 tháng.",
+      "filter": {
+        "year": 2019
+      },
+      "filter_rationale": "Ngữ cảnh tra cứu quy định gốc về thời hiệu xử lý kỷ luật trong văn bản ban hành năm 2019 (year=2019).",
+      "alt_gold": []
+    },
+    {
+      "id": "q10",
+      "split": "dev",
+      "type": "dieu_kien_ngoai_le",
+      "question": "Lao động nữ có thể trở lại làm việc trước khi hết thời gian nghỉ thai sản khi đáp ứng những điều kiện nào?",
+      "expected_answer": "Khi đã nghỉ ít nhất được 04 tháng, phải báo trước, được người sử dụng lao động đồng ý và có xác nhận của cơ sở khám bệnh, chữa bệnh có thẩm quyền về việc đi làm sớm không có hại cho sức khỏe.",
+      "gold_source_id": "blld-2019",
+      "gold_page": 15,
+      "evidence_quote": "4. Trước khi hết thời gian nghỉ thai sản theo quy định tại khoản 1 Điều này, lao động nữ có thể trở lại làm việc khi đã nghỉ ít nhất được 04 tháng nhưng người lao động phải báo trước, được người sử dụng lao động đồng ý và có xác nhận của cơ sở khám bệnh, chữa bệnh có thẩm quyền về việc đi làm sớm không có hại cho sức khỏe của người lao động.",
+      "filter": null,
+      "alt_gold": []
+    },
+    {
+      "id": "q11",
+      "split": "dev",
+      "type": "dien_dat_lai",
+      "question": "Khi tuyển dụng và sử dụng người chưa đủ 15 tuổi vào làm việc, doanh nghiệp phải tổ chức kiểm tra sức khỏe định kỳ tối thiểu bao lâu một lần?",
+      "expected_answer": "Ít nhất một lần trong 06 tháng (và phải có giấy khám sức khỏe xác nhận phù hợp với công việc, có sự đồng ý và ký hợp đồng với người đại diện theo pháp luật).",
+      "gold_source_id": "blld-2019",
+      "gold_page": 16,
+      "evidence_quote": "c) Phải có giấy khám sức khỏe của cơ sở khám bệnh, chữa bệnh có thẩm quyền xác nhận sức khỏe của người chưa đủ 15 tuổi phù hợp với công việc và tổ chức kiểm tra sức khỏe định kỳ ít nhất một lần trong 06 tháng;",
+      "filter": null,
+      "alt_gold": []
+    },
+    {
+      "id": "q12",
+      "split": "dev",
+      "type": "truc_tiep",
+      "question": "Khi tổ chức lấy ý kiến về đình công, tổ chức đại diện người lao động phải thông báo cho người sử dụng lao động biết trước ít nhất bao lâu?",
+      "expected_answer": "Phải thông báo cho người sử dụng lao động biết trước ít nhất 01 ngày.",
+      "gold_source_id": "blld-2019",
+      "gold_page": 25,
+      "evidence_quote": "4. Thời gian, địa điểm và cách thức tiến hành lấy ý kiến về đình công do tổ chức đại diện người lao động quyết định và phải thông báo cho người sử dụng lao động biết trước ít nhất 01 ngày.",
+      "filter": null,
+      "alt_gold": []
+    },
+    {
+      "id": "q13",
+      "split": "dev",
+      "type": "truc_tiep",
+      "question": "Trong thời hạn bao nhiêu ngày kể từ ngày bắt đầu hoạt động, người sử dụng lao động phải lập sổ quản lý lao động ở nơi đặt trụ sở, chi nhánh, văn phòng đại diện?",
+      "expected_answer": "Trong thời hạn 30 ngày kể từ ngày bắt đầu hoạt động.",
+      "gold_source_id": "nd-145-2020",
+      "gold_page": 1,
+      "evidence_quote": "1. Trong thời hạn 30 ngày kể từ ngày bắt đầu hoạt động, người sử dụng lao động phải lập sổ quản lý lao động ở nơi đặt trụ sở, chi nhánh, văn phòng đại diện.",
+      "filter": null,
+      "alt_gold": []
+    },
+    {
+      "id": "q14",
+      "split": "dev",
+      "type": "metadata_filter",
+      "question": "Doanh nghiệp đề nghị cấp giấy phép hoạt động cho thuê lại lao động phải thực hiện ký quỹ bao nhiêu tiền và thời hạn tối đa của giấy phép là bao nhiêu tháng?",
+      "expected_answer": "Phải ký quỹ 2.000.000.000 đồng (hai tỷ đồng); thời hạn giấy phép tối đa là 60 tháng.",
+      "gold_source_id": "nd-145-2020",
+      "gold_page": 6,
+      "evidence_quote": "2. Doanh nghiệp đã thực hiện ký quỹ 2.000.000.000 đồng (hai tỷ đồng).",
+      "filter": {
+        "document_type": "nghi_dinh"
+      },
+      "filter_rationale": "Mức tiền ký quỹ cụ thể và thời hạn giấy phép thuộc thẩm quyền quy định chi tiết của Chính phủ tại Nghị định (document_type=nghi_dinh).",
+      "alt_gold": []
+    },
+    {
+      "id": "q15",
+      "split": "dev",
+      "type": "dien_dat_lai",
+      "question": "Trường hợp người sử dụng lao động chọn trả lương qua tài khoản cá nhân của người lao động tại ngân hàng thì ai phải chịu phí mở tài khoản và phí chuyển tiền lương?",
+      "expected_answer": "Người sử dụng lao động phải trả các loại phí liên quan đến việc mở tài khoản và chuyển tiền lương.",
+      "gold_source_id": "nd-145-2020",
+      "gold_page": 11,
+      "evidence_quote": "Người sử dụng lao động phải trả các loại phí liên quan đến việc mở tài khoản và chuyển tiền lương khi chọn trả lương qua tài khoản cá nhân của người lao động.",
+      "filter": null,
+      "alt_gold": []
+    },
+    {
+      "id": "q16",
+      "split": "dev",
+      "type": "metadata_filter",
+      "question": "Trước ngày tiến hành cuộc họp xử lý kỷ luật lao động, người sử dụng lao động phải thông báo nội dung, thời gian, địa điểm họp đến các thành phần tham dự ít nhất bao nhiêu ngày làm việc?",
+      "expected_answer": "Ít nhất 05 ngày làm việc trước ngày tiến hành họp xử lý kỷ luật lao động.",
+      "gold_source_id": "nd-145-2020",
+      "gold_page": 13,
+      "evidence_quote": "a) Ít nhất 05 ngày làm việc trước ngày tiến hành họp xử lý kỷ luật lao động, người sử dụng lao động thông báo về nội dung, thời gian, địa điểm tiến hành cuộc họp xử lý kỷ luật lao động, họ tên người bị xử lý kỷ luật lao động, hành vi vi phạm bị xử lý kỷ luật lao động đến các thành phần phải tham dự họp",
+      "filter": {
+        "year": 2020
+      },
+      "filter_rationale": "Trình tự, thủ tục chi tiết về số ngày thông báo trước cuộc họp kỷ luật được quy định tại văn bản hướng dẫn ban hành năm 2020 (year=2020).",
+      "alt_gold": []
+    },
+    {
+      "id": "q17",
+      "split": "dev",
+      "type": "dien_dat_lai",
+      "question": "Những hình thức hành vi nào được xác định là quấy rối tình dục tại nơi làm việc?",
+      "expected_answer": "Bao gồm 3 nhóm: hành vi mang tính thể chất (tiếp xúc, tác động cơ thể), quấy rối tình dục bằng lời nói (trực tiếp, qua điện thoại, phương tiện điện tử), và quấy rối tình dục phi lời nói (ngôn ngữ cơ thể, trưng bày tài liệu trực quan về tình dục).",
+      "gold_source_id": "nd-145-2020",
+      "gold_page": 16,
+      "evidence_quote": "a) Hành vi mang tính thể chất gồm hành động, cử chỉ, tiếp xúc, tác động vào cơ thể mang tính tình dục hoặc gợi ý tình dục;",
+      "filter": null,
+      "alt_gold": []
+    },
+    {
+      "id": "q18",
+      "split": "dev",
+      "type": "truc_tiep",
+      "question": "Để được bổ nhiệm làm hòa giải viên lao động, ứng viên phải đáp ứng tiêu chuẩn về trình độ học vấn và số năm kinh nghiệm làm việc như thế nào?",
+      "expected_answer": "Có trình độ đại học trở lên và có ít nhất 03 năm làm việc trong lĩnh vực có liên quan đến quan hệ lao động.",
+      "gold_source_id": "nd-145-2020",
+      "gold_page": 19,
+      "evidence_quote": "2. Có trình độ đại học trở lên và có ít nhất 03 năm làm việc trong lĩnh vực có liên quan đến quan hệ lao động.",
+      "filter": null,
+      "alt_gold": []
+    },
+    {
+      "id": "q19",
+      "split": "test",
+      "type": "dieu_kien_ngoai_le",
+      "question": "Khi hợp đồng lao động chấm dứt thì mức trợ cấp thôi việc mỗi năm làm việc là bao nhiêu và những trường hợp nào không được nhận trợ cấp thôi việc?",
+      "expected_answer": "Mỗi năm làm việc được trợ cấp một nửa tháng tiền lương (đối với người đã làm việc thường xuyên từ đủ 12 tháng trở lên); trừ trường hợp đủ điều kiện hưởng lương hưu và trường hợp tự ý bỏ việc không có lý do chính đáng từ 05 ngày làm việc liên tục trở lên.",
+      "gold_source_id": "blld-2019",
+      "gold_page": 4,
+      "evidence_quote": "mỗi năm làm việc được trợ cấp một nửa tháng tiền lương, trừ trường hợp đủ điều kiện hưởng lương hưu theo quy định của pháp luật về bảo hiểm xã hội và trường hợp quy định tại điểm e khoản 1 Điều 36 của Bộ luật này.",
+      "filter": null,
+      "alt_gold": [
+        {
+          "gold_source_id": "nd-145-2020",
+          "gold_page": 3,
+          "evidence_quote": "1. Người sử dụng lao động có trách nhiệm chi trả trợ cấp thôi việc theo quy định tại Điều 46 của Bộ luật Lao động đối với người lao động đã làm việc thường xuyên cho mình từ đủ 12 tháng trở lên"
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "split": "test",
+      "type": "truc_tiep",
+      "question": "Người lao động làm việc từ 06 giờ trở lên trong một ngày hoặc làm việc vào ban đêm thì được nghỉ giữa giờ liên tục tối thiểu bao nhiêu phút?",
+      "expected_answer": "Nghỉ giữa giờ ít nhất 30 phút liên tục; nếu làm việc ban đêm thì được nghỉ giữa giờ ít nhất 45 phút liên tục.",
+      "gold_source_id": "blld-2019",
+      "gold_page": 12,
+      "evidence_quote": "1. Người lao động làm việc theo thời giờ làm việc quy định tại Điều 105 của Bộ luật này từ 06 giờ trở lên trong một ngày thì được nghỉ giữa giờ ít nhất 30 phút liên tục, làm việc ban đêm thì được nghỉ giữa giờ ít nhất 45 phút liên tục.",
+      "filter": null,
+      "alt_gold": []
+    },
+    {
+      "id": "q21",
+      "split": "test",
+      "type": "metadata_filter",
+      "question": "Khi sử dụng người lao động cao tuổi đang hưởng lương hưu theo hợp đồng lao động mới, quyền lợi của người lao động và điều kiện giao kết hợp đồng xác định thời hạn được quy định ra sao?",
+      "expected_answer": "Hai bên có thể thỏa thuận giao kết nhiều lần hợp đồng lao động xác định thời hạn; ngoài quyền lợi đang hưởng theo chế độ hưu trí, người lao động cao tuổi được hưởng tiền lương và các quyền lợi khác theo quy định của pháp luật, hợp đồng lao động.",
+      "gold_source_id": "blld-2019",
+      "gold_page": 17,
+      "evidence_quote": "1. Khi sử dụng người lao động cao tuổi, hai bên có thể thỏa thuận giao kết nhiều lần hợp đồng lao động xác định thời hạn.",
+      "filter": {
+        "document_type": "bo_luat"
+      },
+      "filter_rationale": "Chế định về người lao động cao tuổi được quy định trực tiếp trong Bộ luật Lao động (document_type=bo_luat).",
+      "alt_gold": []
+    },
+    {
+      "id": "q22",
+      "split": "test",
+      "type": "metadata_filter",
+      "question": "Người sử dụng lao động sử dụng từ bao nhiêu lao động nữ trở lên thì bắt buộc phải lắp đặt phòng vắt, trữ sữa mẹ tại nơi làm việc?",
+      "expected_answer": "Sử dụng từ 1.000 người lao động nữ trở lên thì phải lắp đặt phòng vắt, trữ sữa mẹ tại nơi làm việc.",
+      "gold_source_id": "nd-145-2020",
+      "gold_page": 15,
+      "evidence_quote": "Trường hợp người sử dụng lao động sử dụng từ 1.000 người lao động nữ trở lên thì phải lắp đặt phòng vắt, trữ sữa mẹ tại nơi làm việc.",
+      "filter": {
+        "document_type": "nghi_dinh"
+      },
+      "filter_rationale": "Ngưỡng định lượng 1.000 lao động nữ là quy định hướng dẫn chi tiết của Chính phủ tại Nghị định 145/2020/NĐ-CP (document_type=nghi_dinh).",
+      "alt_gold": []
+    },
+    {
+      "id": "q23",
+      "split": "test",
+      "type": "dieu_kien_ngoai_le",
+      "question": "Đối với lao động là người giúp việc gia đình, trong quá trình thực hiện hợp đồng lao động mỗi bên có quyền đơn phương chấm dứt hợp đồng mà không cần lý do nhưng phải báo trước ít nhất bao nhiêu ngày?",
+      "expected_answer": "Phải báo trước ít nhất 15 ngày (trừ một số trường hợp đặc biệt như không được bố trí đúng công việc, không được trả đủ lương, bị ngược đãi, quấy rối tình dục... thì không phải báo trước).",
+      "gold_source_id": "nd-145-2020",
+      "gold_page": 18,
+      "evidence_quote": "d) Trong quá trình thực hiện hợp đồng lao động, mỗi bên có quyền đơn phương chấm dứt hợp đồng lao động mà không cần lý do nhưng phải báo trước ít nhất 15 ngày, trừ các trường hợp sau thì không phải báo trước:",
+      "filter": null,
+      "alt_gold": []
+    },
+    {
+      "id": "q24",
+      "split": "test",
+      "type": "dien_dat_lai",
+      "question": "Trừ trường hợp đặc biệt quy định tại Điều 108 của Bộ luật Lao động, khi tổ chức làm thêm giờ người sử dụng lao động phải được người lao động đồng ý về những nội dung cụ thể nào?",
+      "expected_answer": "Phải được sự đồng ý của người lao động tham gia làm thêm về 3 nội dung: thời gian làm thêm, địa điểm làm thêm và công việc làm thêm.",
+      "gold_source_id": "nd-145-2020",
+      "gold_page": 12,
+      "evidence_quote": "1. Trừ các trường hợp quy định tại Điều 108 của Bộ luật Lao động, các trường hợp khác khi tổ chức làm thêm giờ, người sử dụng lao động phải được sự đồng ý của người lao động tham gia làm thêm về các nội dung sau đây:\na) Thời gian làm thêm;\nb) Địa điểm làm thêm;\nc) Công việc làm thêm.",
+      "filter": null,
+      "alt_gold": []
+    }
+  ]
+}

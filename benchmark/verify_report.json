@@ -1,0 +1,376 @@
+{
+  "verified_at": "2026-11-14T03:58:51.934276+00:00",
+  "all_passed": true,
+  "total_questions": 24,
+  "dev_count": 18,
+  "test_count": 6,
+  "filter_questions_total": 7,
+  "filter_questions_dev": 5,
+  "filter_questions_test": 2,
+  "checks": [
+    {
+      "id": "q01",
+      "split": "dev",
+      "type": "truc_tiep",
+      "gold_source_id": "blld-2019",
+      "gold_page": 2,
+      "unit_id": "blld-2019-p02",
+      "has_filter": false,
+      "filter": null,
+      "primary_quote_found": true,
+      "primary_char_offset": 11303,
+      "evidence_length": 118,
+      "alt_gold_checks": []
+    },
+    {
+      "id": "q02",
+      "split": "dev",
+      "type": "dieu_kien_ngoai_le",
+      "gold_source_id": "blld-2019",
+      "gold_page": 3,
+      "unit_id": "blld-2019-p03",
+      "has_filter": false,
+      "filter": null,
+      "primary_quote_found": true,
+      "primary_char_offset": 1576,
+      "evidence_length": 272,
+      "alt_gold_checks": []
+    },
+    {
+      "id": "q03",
+      "split": "dev",
+      "type": "metadata_filter",
+      "gold_source_id": "blld-2019",
+      "gold_page": 4,
+      "unit_id": "blld-2019-p04",
+      "has_filter": true,
+      "filter": {
+        "document_type": "bo_luat"
+      },
+      "primary_quote_found": true,
+      "primary_char_offset": 2199,
+      "evidence_length": 110,
+      "alt_gold_checks": []
+    },
+    {
+      "id": "q04",
+      "split": "dev",
+      "type": "metadata_filter",
+      "gold_source_id": "nd-145-2020",
+      "gold_page": 3,
+      "unit_id": "nd-145-2020-p03",
+      "has_filter": true,
+      "filter": {
+        "document_type": "nghi_dinh"
+      },
+      "primary_quote_found": true,
+      "primary_char_offset": 1160,
+      "evidence_length": 131,
+      "alt_gold_checks": []
+    },
+    {
+      "id": "q05",
+      "split": "dev",
+      "type": "truc_tiep",
+      "gold_source_id": "blld-2019",
+      "gold_page": 5,
+      "unit_id": "blld-2019-p05",
+      "has_filter": false,
+      "filter": null,
+      "primary_quote_found": true,
+      "primary_char_offset": 2102,
+      "evidence_length": 76,
+      "alt_gold_checks": []
+    },
+    {
+      "id": "q06",
+      "split": "dev",
+      "type": "dien_dat_lai",
+      "gold_source_id": "blld-2019",
+      "gold_page": 10,
+      "unit_id": "blld-2019-p10",
+      "has_filter": false,
+      "filter": null,
+      "primary_quote_found": true,
+      "primary_char_offset": 5565,
+      "evidence_length": 38,
+      "alt_gold_checks": [
+        {
+          "gold_source_id": "nd-145-2020",
+          "gold_page": 11,
+          "found": true,
+          "char_offset": 2774
+        }
+      ]
+    },
+    {
+      "id": "q07",
+      "split": "dev",
+      "type": "dieu_kien_ngoai_le",
+      "gold_source_id": "blld-2019",
+      "gold_page": 11,
+      "unit_id": "blld-2019-p11",
+      "has_filter": false,
+      "filter": null,
+      "primary_quote_found": true,
+      "primary_char_offset": 1486,
+      "evidence_length": 123,
+      "alt_gold_checks": []
+    },
+    {
+      "id": "q08",
+      "split": "dev",
+      "type": "truc_tiep",
+      "gold_source_id": "blld-2019",
+      "gold_page": 12,
+      "unit_id": "blld-2019-p12",
+      "has_filter": false,
+      "filter": null,
+      "primary_quote_found": true,
+      "primary_char_offset": 1841,
+      "evidence_length": 192,
+      "alt_gold_checks": []
+    },
+    {
+      "id": "q09",
+      "split": "dev",
+      "type": "metadata_filter",
+      "gold_source_id": "blld-2019",
+      "gold_page": 13,
+      "unit_id": "blld-2019-p13",
+      "has_filter": true,
+      "filter": {
+        "year": 2019
+      },
+      "primary_quote_found": true,
+      "primary_char_offset": 6222,
+      "evidence_length": 274,
+      "alt_gold_checks": []
+    },
+    {
+      "id": "q10",
+      "split": "dev",
+      "type": "dieu_kien_ngoai_le",
+      "gold_source_id": "blld-2019",
+      "gold_page": 15,
+      "unit_id": "blld-2019-p15",
+      "has_filter": false,
+      "filter": null,
+      "primary_quote_found": true,
+      "primary_char_offset": 6118,
+      "evidence_length": 343,
+      "alt_gold_checks": []
+    },
+    {
+      "id": "q11",
+      "split": "dev",
+      "type": "dien_dat_lai",
+      "gold_source_id": "blld-2019",
+      "gold_page": 16,
+      "unit_id": "blld-2019-p16",
+      "has_filter": false,
+      "filter": null,
+      "primary_quote_found": true,
+      "primary_char_offset": 1780,
+      "evidence_length": 209,
+      "alt_gold_checks": []
+    },
+    {
+      "id": "q12",
+      "split": "dev",
+      "type": "truc_tiep",
+      "gold_source_id": "blld-2019",
+      "gold_page": 25,
+      "unit_id": "blld-2019-p25",
+      "has_filter": false,
+      "filter": null,
+      "primary_quote_found": true,
+      "primary_char_offset": 1833,
+      "evidence_length": 188,
+      "alt_gold_checks": []
+    },
+    {
+      "id": "q13",
+      "split": "dev",
+      "type": "truc_tiep",
+      "gold_source_id": "nd-145-2020",
+      "gold_page": 1,
+      "unit_id": "nd-145-2020-p01",
+      "has_filter": false,
+      "filter": null,
+      "primary_quote_found": true,
+      "primary_char_offset": 1493,
+      "evidence_length": 156,
+      "alt_gold_checks": []
+    },
+    {
+      "id": "q14",
+      "split": "dev",
+      "type": "metadata_filter",
+      "gold_source_id": "nd-145-2020",
+      "gold_page": 6,
+      "unit_id": "nd-145-2020-p06",
+      "has_filter": true,
+      "filter": {
+        "document_type": "nghi_dinh"
+      },
+      "primary_quote_found": true,
+      "primary_char_offset": 613,
+      "evidence_length": 69,
+      "alt_gold_checks": []
+    },
+    {
+      "id": "q15",
+      "split": "dev",
+      "type": "dien_dat_lai",
+      "gold_source_id": "nd-145-2020",
+      "gold_page": 11,
+      "unit_id": "nd-145-2020-p11",
+      "has_filter": false,
+      "filter": null,
+      "primary_quote_found": true,
+      "primary_char_offset": 2167,
+      "evidence_length": 158,
+      "alt_gold_checks": []
+    },
+    {
+      "id": "q16",
+      "split": "dev",
+      "type": "metadata_filter",
+      "gold_source_id": "nd-145-2020",
+      "gold_page": 13,
+      "unit_id": "nd-145-2020-p13",
+      "has_filter": true,
+      "filter": {
+        "year": 2020
+      },
+      "primary_quote_found": true,
+      "primary_char_offset": 4506,
+      "evidence_length": 303,
+      "alt_gold_checks": []
+    },
+    {
+      "id": "q17",
+      "split": "dev",
+      "type": "dien_dat_lai",
+      "gold_source_id": "nd-145-2020",
+      "gold_page": 16,
+      "unit_id": "nd-145-2020-p16",
+      "has_filter": false,
+      "filter": null,
+      "primary_quote_found": true,
+      "primary_char_offset": 626,
+      "evidence_length": 122,
+      "alt_gold_checks": []
+    },
+    {
+      "id": "q18",
+      "split": "dev",
+      "type": "truc_tiep",
+      "gold_source_id": "nd-145-2020",
+      "gold_page": 19,
+      "unit_id": "nd-145-2020-p19",
+      "has_filter": false,
+      "filter": null,
+      "primary_quote_found": true,
+      "primary_char_offset": 237,
+      "evidence_length": 110,
+      "alt_gold_checks": []
+    },
+    {
+      "id": "q19",
+      "split": "test",
+      "type": "dieu_kien_ngoai_le",
+      "gold_source_id": "blld-2019",
+      "gold_page": 4,
+      "unit_id": "blld-2019-p04",
+      "has_filter": false,
+      "filter": null,
+      "primary_quote_found": true,
+      "primary_char_offset": 13734,
+      "evidence_length": 213,
+      "alt_gold_checks": [
+        {
+          "gold_source_id": "nd-145-2020",
+          "gold_page": 3,
+          "found": true,
+          "char_offset": 1444
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "split": "test",
+      "type": "truc_tiep",
+      "gold_source_id": "blld-2019",
+      "gold_page": 12,
+      "unit_id": "blld-2019-p12",
+      "has_filter": false,
+      "filter": null,
+      "primary_quote_found": true,
+      "primary_char_offset": 111,
+      "evidence_length": 235,
+      "alt_gold_checks": []
+    },
+    {
+      "id": "q21",
+      "split": "test",
+      "type": "metadata_filter",
+      "gold_source_id": "blld-2019",
+      "gold_page": 17,
+      "unit_id": "blld-2019-p17",
+      "has_filter": true,
+      "filter": {
+        "document_type": "bo_luat"
+      },
+      "primary_quote_found": true,
+      "primary_char_offset": 594,
+      "evidence_length": 121,
+      "alt_gold_checks": []
+    },
+    {
+      "id": "q22",
+      "split": "test",
+      "type": "metadata_filter",
+      "gold_source_id": "nd-145-2020",
+      "gold_page": 15,
+      "unit_id": "nd-145-2020-p15",
+      "has_filter": true,
+      "filter": {
+        "document_type": "nghi_dinh"
+      },
+      "primary_quote_found": true,
+      "primary_char_offset": 4706,
+      "evidence_length": 133,
+      "alt_gold_checks": []
+    },
+    {
+      "id": "q23",
+      "split": "test",
+      "type": "dieu_kien_ngoai_le",
+      "gold_source_id": "nd-145-2020",
+      "gold_page": 18,
+      "unit_id": "nd-145-2020-p18",
+      "has_filter": false,
+      "filter": null,
+      "primary_quote_found": true,
+      "primary_char_offset": 2005,
+      "evidence_length": 208,
+      "alt_gold_checks": []
+    },
+    {
+      "id": "q24",
+      "split": "test",
+      "type": "dien_dat_lai",
+      "gold_source_id": "nd-145-2020",
+      "gold_page": 12,
+      "unit_id": "nd-145-2020-p12",
+      "has_filter": false,
+      "filter": null,
+      "primary_quote_found": true,
+      "primary_char_offset": 1477,
+      "evidence_length": 284,
+      "alt_gold_checks": []
+    }
+  ]
+}

@@ -1,0 +1,452 @@
+{
+  "corpus_name": "Pháp luật Lao động Việt Nam: Bộ luật Lao động 2019 & Nghị định 145/2020/NĐ-CP",
+  "topic": "Quy định pháp luật về điều kiện lao động và quan hệ lao động tại Việt Nam",
+  "accessed_at": "2026-11-14",
+  "unit_counting_rule": "Theo GUIDE.md (mục 1): với văn bản .doc không có phân trang vật lý cố định, chia theo cấu trúc Chương/Mục có ý nghĩa độc lập sao cho mỗi đơn vị có tối thiểu 1.500 ký tự nội dung đã chuẩn hóa (Unicode NFC). Loại bỏ trang bìa/mục lục Công báo, biểu mẫu trống (Phụ lục I-III) và văn bản điều ước quốc tế không liên quan in cùng số Công báo. Hai bản PDF ký số (.signed.pdf) là bản scan ảnh không có lớp text (0 ký tự khi đọc bằng pypdf) nên được ghi nhận vào ingest_log.json (0 trang hợp lệ) và thay bằng bản .doc Công báo chính thức.",
+  "total_valid_units": 52,
+  "min_unit_chars_threshold": 1500,
+  "min_unit_chars_actual": 1505,
+  "total_normalized_chars": 379159,
+  "sources": [
+    {
+      "source_id": "blld-2019",
+      "title": "Bộ luật Lao động số 45/2019/QH14",
+      "official_number": "45/2019/QH14",
+      "document_type": "bo_luat",
+      "issuing_body": "Quốc hội nước CHXHCN Việt Nam",
+      "year": 2019,
+      "issued_date": "2019-11-20",
+      "effective_date": "2021-01-01",
+      "source_path_or_url": "data/raw/2019_993 + 994_45-2019-QH14.doc (Công báo số 993 + 994, ngày 26/12/2019, https://congbao.chinhphu.vn/)",
+      "license_or_permission": "Phạm vi công cộng (Public Domain) theo khoản 2 Điều 15 Luật Sở hữu trí tuệ Việt Nam: Văn bản quy phạm pháp luật không thuộc phạm vi bảo hộ quyền tác giả, được phép sao chép và tái phân phối.",
+      "accessed_at": "2026-11-14",
+      "valid_units_count": 28,
+      "total_normalized_chars": 189822,
+      "units": [
+        {
+          "page": 1,
+          "unit_id": "blld-2019-p01",
+          "chapter": "Chương I",
+          "section": "Chương I: NHỮNG QUY ĐỊNH CHUNG",
+          "char_count": 10021
+        },
+        {
+          "page": 2,
+          "unit_id": "blld-2019-p02",
+          "chapter": "Chương II+Chương III",
+          "section": "Chương II: VIỆC LÀM, TUYỂN DỤNG VÀ QUẢN LÝ LAO ĐỘNG & Chương III - Mục 1: GIAO KẾT HỢP ĐỒNG LAO ĐỘNG",
+          "char_count": 12450
+        },
+        {
+          "page": 3,
+          "unit_id": "blld-2019-p03",
+          "chapter": "Chương III",
+          "section": "Chương III - Mục 2: THỰC HIỆN HỢP ĐỒNG LAO ĐỘNG",
+          "char_count": 4952
+        },
+        {
+          "page": 4,
+          "unit_id": "blld-2019-p04",
+          "chapter": "Chương III",
+          "section": "Chương III - Mục 3: CHẤM DỨT HỢP ĐỒNG LAO ĐỘNG",
+          "char_count": 16686
+        },
+        {
+          "page": 5,
+          "unit_id": "blld-2019-p05",
+          "chapter": "Chương III",
+          "section": "Chương III - Mục 4: HỢP ĐỒNG LAO ĐỘNG VÔ HIỆU & Chương III - Mục 5: CHO THUÊ LẠI LAO ĐỘNG",
+          "char_count": 7400
+        },
+        {
+          "page": 6,
+          "unit_id": "blld-2019-p06",
+          "chapter": "Chương IV",
+          "section": "Chương IV: GIÁO DỤC NGHỀ NGHIỆP VÀ PHÁT TRIỂN KỸ NĂNG NGHỀ",
+          "char_count": 4317
+        },
+        {
+          "page": 7,
+          "unit_id": "blld-2019-p07",
+          "chapter": "Chương V",
+          "section": "Chương V - Mục 1: ĐỐI THOẠI TẠI NƠI LÀM VIỆC",
+          "char_count": 1796
+        },
+        {
+          "page": 8,
+          "unit_id": "blld-2019-p08",
+          "chapter": "Chương V",
+          "section": "Chương V - Mục 2: THƯƠNG LƯỢNG TẬP THỂ",
+          "char_count": 10082
+        },
+        {
+          "page": 9,
+          "unit_id": "blld-2019-p09",
+          "chapter": "Chương V",
+          "section": "Chương V - Mục 3: THỎA ƯỚC LAO ĐỘNG TẬP THỂ",
+          "char_count": 11372
+        },
+        {
+          "page": 10,
+          "unit_id": "blld-2019-p10",
+          "chapter": "Chương VI",
+          "section": "Chương VI: TIỀN LƯƠNG",
+          "char_count": 10176
+        },
+        {
+          "page": 11,
+          "unit_id": "blld-2019-p11",
+          "chapter": "Chương VII",
+          "section": "Chương VII - Mục 1: THỜI GIỜ LÀM VIỆC",
+          "char_count": 3408
+        },
+        {
+          "page": 12,
+          "unit_id": "blld-2019-p12",
+          "chapter": "Chương VII",
+          "section": "Chương VII - Mục 2: THỜI GIỜ NGHỈ NGƠI",
+          "char_count": 4726
+        },
+        {
+          "page": 13,
+          "unit_id": "blld-2019-p13",
+          "chapter": "Chương VII+Chương VIII",
+          "section": "Chương VII - Mục 3: THỜI GIỜ LÀM VIỆC, THỜI GIỜ NGHỈ NGƠI & Chương VIII - Mục 1: KỶ LUẬT LAO ĐỘNG",
+          "char_count": 10233
+        },
+        {
+          "page": 14,
+          "unit_id": "blld-2019-p14",
+          "chapter": "Chương VIII",
+          "section": "Chương VIII - Mục 2: TRÁCH NHIỆM VẬT CHẤT",
+          "char_count": 1985
+        },
+        {
+          "page": 15,
+          "unit_id": "blld-2019-p15",
+          "chapter": "Chương IX+Chương X",
+          "section": "Chương IX: AN TOÀN, VỆ SINH LAO ĐỘNG & Chương X: NHỮNG QUY ĐỊNH RIÊNG ĐỐI VỚI LAO ĐỘNG NỮ",
+          "char_count": 8209
+        },
+        {
+          "page": 16,
+          "unit_id": "blld-2019-p16",
+          "chapter": "Chương XI",
+          "section": "Chương XI - Mục 1: LAO ĐỘNG CHƯA THÀNH NIÊN",
+          "char_count": 4447
+        },
+        {
+          "page": 17,
+          "unit_id": "blld-2019-p17",
+          "chapter": "Chương XI",
+          "section": "Chương XI - Mục 2: NGƯỜI LAO ĐỘNG CAO TUỔI & Chương XI - Mục 3: NGƯỜI LAO ĐỘNG VIỆT NAM ĐI LÀM VIỆC Ở NƯỚC NGOÀI,",
+          "char_count": 7550
+        },
+        {
+          "page": 18,
+          "unit_id": "blld-2019-p18",
+          "chapter": "Chương XI",
+          "section": "Chương XI - Mục 4: LAO ĐỘNG LÀ NGƯỜI KHUYẾT TẬT & Chương XI - Mục 5: LAO ĐỘNG LÀ NGƯỜI GIÚP VIỆC GIA ĐÌNH",
+          "char_count": 4136
+        },
+        {
+          "page": 19,
+          "unit_id": "blld-2019-p19",
+          "chapter": "Chương XI+Chương XII",
+          "section": "Chương XI - Mục 6: MỘT SỐ LAO ĐỘNG KHÁC & Chương XII: BẢO HIỂM XÃ HỘI, BẢO HIỂM Y TẾ, BẢO HIỂM THẤT NGHIỆP",
+          "char_count": 3095
+        },
+        {
+          "page": 20,
+          "unit_id": "blld-2019-p20",
+          "chapter": "Chương XIII",
+          "section": "Chương XIII: TỔ CHỨC ĐẠI DIỆN NGƯỜI LAO ĐỘNG TẠI CƠ SỞ",
+          "char_count": 9979
+        },
+        {
+          "page": 21,
+          "unit_id": "blld-2019-p21",
+          "chapter": "Chương XIV",
+          "section": "Chương XIV - Mục 1: NHỮNG QUY ĐỊNH CHUNG",
+          "char_count": 8241
+        },
+        {
+          "page": 22,
+          "unit_id": "blld-2019-p22",
+          "chapter": "Chương XIV",
+          "section": "Chương XIV - Mục 2: THẨM QUYỀN VÀ TRÌNH TỰ GIẢI QUYẾT",
+          "char_count": 5755
+        },
+        {
+          "page": 23,
+          "unit_id": "blld-2019-p23",
+          "chapter": "Chương XIV",
+          "section": "Chương XIV - Mục 3: THẨM QUYỀN VÀ TRÌNH TỰ GIẢI QUYẾT",
+          "char_count": 3996
+        },
+        {
+          "page": 24,
+          "unit_id": "blld-2019-p24",
+          "chapter": "Chương XIV",
+          "section": "Chương XIV - Mục 4: THẨM QUYỀN VÀ TRÌNH TỰ GIẢI QUYẾT",
+          "char_count": 3284
+        },
+        {
+          "page": 25,
+          "unit_id": "blld-2019-p25",
+          "chapter": "Chương XIV",
+          "section": "Chương XIV - Mục 5: ĐÌNH CÔNG",
+          "char_count": 8587
+        },
+        {
+          "page": 26,
+          "unit_id": "blld-2019-p26",
+          "chapter": "Chương XV",
+          "section": "Chương XV: QUẢN LÝ NHÀ NƯỚC VỀ LAO ĐỘNG",
+          "char_count": 1932
+        },
+        {
+          "page": 27,
+          "unit_id": "blld-2019-p27",
+          "chapter": "Chương XVI",
+          "section": "Chương XVI: THANH TRA LAO ĐỘNG,",
+          "char_count": 2446
+        },
+        {
+          "page": 28,
+          "unit_id": "blld-2019-p28",
+          "chapter": "Chương XVII",
+          "section": "Chương XVII: ĐIỀU KHOẢN THI HÀNH",
+          "char_count": 8561
+        }
+      ]
+    },
+    {
+      "source_id": "nd-145-2020",
+      "title": "Nghị định số 145/2020/NĐ-CP quy định chi tiết và hướng dẫn thi hành một số điều của Bộ luật Lao động về điều kiện lao động và quan hệ lao động",
+      "official_number": "145/2020/NĐ-CP",
+      "document_type": "nghi_dinh",
+      "issuing_body": "Chính phủ nước CHXHCN Việt Nam",
+      "year": 2020,
+      "issued_date": "2020-12-14",
+      "effective_date": "2021-02-01",
+      "source_path_or_url": "data/raw/2020_1203 + 1204_145-2020-NĐ-CP.doc & data/raw/2020_1205 + 1206_145-2020-NĐ-CP.doc (Công báo số 1203+1204 và 1205+1206, ngày 28/12/2020, https://congbao.chinhphu.vn/)",
+      "license_or_permission": "Phạm vi công cộng (Public Domain) theo khoản 2 Điều 15 Luật Sở hữu trí tuệ Việt Nam: Văn bản quy phạm pháp luật không thuộc phạm vi bảo hộ quyền tác giả, được phép sao chép và tái phân phối.",
+      "accessed_at": "2026-11-14",
+      "valid_units_count": 24,
+      "total_normalized_chars": 189337,
+      "excluded_parts": [
+        "Bìa và Mục lục số Công báo 1203+1204 (521 ký tự đầu)",
+        "Bìa và Mục lục số Công báo 1205+1206 (827 ký tự đầu)",
+        "Phụ lục I, II, III biểu mẫu báo cáo và Thông báo số 61/2020/TB-LPQT (50.105 ký tự cuối cuốn 1205+1206)"
+      ],
+      "units": [
+        {
+          "page": 1,
+          "unit_id": "nd-145-2020-p01",
+          "source_file": "data/raw/2020_1203 + 1204_145-2020-NĐ-CP.doc",
+          "chapter": "Chương I+Chương II",
+          "section": "Chương I: NHỮNG QUY ĐỊNH CHUNG & Chương II: QUẢN LÝ LAO ĐỘNG",
+          "char_count": 4695
+        },
+        {
+          "page": 2,
+          "unit_id": "nd-145-2020-p02",
+          "source_file": "data/raw/2020_1203 + 1204_145-2020-NĐ-CP.doc",
+          "chapter": "Chương III",
+          "section": "Chương III - Mục 1: NỘI DUNG HỢP ĐỒNG LAO ĐỘNG ĐỐI VỚI NGƯỜI LAO ĐỘNG",
+          "char_count": 4142
+        },
+        {
+          "page": 3,
+          "unit_id": "nd-145-2020-p03",
+          "source_file": "data/raw/2020_1203 + 1204_145-2020-NĐ-CP.doc",
+          "chapter": "Chương III",
+          "section": "Chương III - Mục 2: CHẤM DỨT HỢP ĐỒNG LAO ĐỘNG",
+          "char_count": 10065
+        },
+        {
+          "page": 4,
+          "unit_id": "nd-145-2020-p04",
+          "source_file": "data/raw/2020_1203 + 1204_145-2020-NĐ-CP.doc",
+          "chapter": "Chương III",
+          "section": "Chương III - Mục 3: XỬ LÝ HỢP ĐỒNG LAO ĐỘNG VÔ HIỆU",
+          "char_count": 5729
+        },
+        {
+          "page": 5,
+          "unit_id": "nd-145-2020-p05",
+          "source_file": "data/raw/2020_1203 + 1204_145-2020-NĐ-CP.doc",
+          "chapter": "Chương IV",
+          "section": "Chương IV - Mục 1: QUY ĐỊNH CHUNG VỀ CHO THUÊ LẠI LAO ĐỘNG & Chương IV - Mục 2: KÝ QUỸ CỦA DOANH NGHIỆP CHO THUÊ LẠI",
+          "char_count": 11718
+        },
+        {
+          "page": 6,
+          "unit_id": "nd-145-2020-p06",
+          "source_file": "data/raw/2020_1203 + 1204_145-2020-NĐ-CP.doc",
+          "chapter": "Chương IV",
+          "section": "Chương IV - Mục 3: ĐIỀU KIỆN, THẨM QUYỀN, TRÌNH TỰ, THỦ TỤC CẤP, GIA HẠN,",
+          "char_count": 17567
+        },
+        {
+          "page": 7,
+          "unit_id": "nd-145-2020-p07",
+          "source_file": "data/raw/2020_1203 + 1204_145-2020-NĐ-CP.doc",
+          "chapter": "Chương IV",
+          "section": "Chương IV - Mục 4: TRÁCH NHIỆM TỔ CHỨC THỰC HIỆN",
+          "char_count": 4364
+        },
+        {
+          "page": 8,
+          "unit_id": "nd-145-2020-p08",
+          "source_file": "data/raw/2020_1203 + 1204_145-2020-NĐ-CP.doc",
+          "chapter": "Chương V",
+          "section": "Chương V - Mục 1: TỔ CHỨC ĐỐI THOẠI TẠI NƠI LÀM VIỆC",
+          "char_count": 11413
+        },
+        {
+          "page": 9,
+          "unit_id": "nd-145-2020-p09",
+          "source_file": "data/raw/2020_1203 + 1204_145-2020-NĐ-CP.doc",
+          "chapter": "Chương V",
+          "section": "Chương V - Mục 2: THỰC HIỆN QUY CHẾ DÂN CHỦ Ở CƠ SỞ TẠI NƠI LÀM VIỆC",
+          "char_count": 6412
+        },
+        {
+          "page": 10,
+          "unit_id": "nd-145-2020-p10",
+          "source_file": "data/raw/2020_1203 + 1204_145-2020-NĐ-CP.doc",
+          "chapter": "Chương VI",
+          "section": "Chương VI - Mục 1: HỘI ĐỒNG TIỀN LƯƠNG QUỐC GIA",
+          "char_count": 6315
+        },
+        {
+          "page": 11,
+          "unit_id": "nd-145-2020-p11",
+          "source_file": "data/raw/2020_1203 + 1204_145-2020-NĐ-CP.doc",
+          "chapter": "Chương VI",
+          "section": "Chương VI - Mục 2: HÌNH THỨC TRẢ LƯƠNG VÀ TIỀN LƯƠNG LÀM THÊM GIỜ,",
+          "char_count": 10062
+        },
+        {
+          "page": 12,
+          "unit_id": "nd-145-2020-p12",
+          "source_file": "data/raw/2020_1203 + 1204_145-2020-NĐ-CP.doc",
+          "chapter": "Chương VII",
+          "section": "Chương VII: THỜI GIỜ LÀM VIỆC, THỜI GIỜ NGHỈ NGƠI",
+          "char_count": 10155
+        },
+        {
+          "page": 13,
+          "unit_id": "nd-145-2020-p13",
+          "source_file": "data/raw/2020_1203 + 1204_145-2020-NĐ-CP.doc",
+          "chapter": "Chương VIII",
+          "section": "Chương VIII: KỶ LUẬT LAO ĐỘNG, TRÁCH NHIỆM VẬT CHẤT",
+          "char_count": 11018
+        },
+        {
+          "page": 14,
+          "unit_id": "nd-145-2020-p14",
+          "source_file": "data/raw/2020_1203 + 1204_145-2020-NĐ-CP.doc",
+          "chapter": "Chương IX",
+          "section": "Chương IX - Mục 1: QUY ĐỊNH CHUNG VỀ LAO ĐỘNG NỮ",
+          "char_count": 1755
+        },
+        {
+          "page": 15,
+          "unit_id": "nd-145-2020-p15",
+          "source_file": "data/raw/2020_1203 + 1204_145-2020-NĐ-CP.doc",
+          "chapter": "Chương IX",
+          "section": "Chương IX - Mục 2: BẢO ĐẢM BÌNH ĐẲNG GIỚI",
+          "char_count": 8679
+        },
+        {
+          "page": 16,
+          "unit_id": "nd-145-2020-p16",
+          "source_file": "data/raw/2020_1203 + 1204_145-2020-NĐ-CP.doc",
+          "chapter": "Chương IX",
+          "section": "Chương IX - Mục 3: PHÒNG, CHỐNG QUẤY RỐI TÌNH DỤC TẠI NƠI LÀM VIỆC",
+          "char_count": 4488
+        },
+        {
+          "page": 17,
+          "unit_id": "nd-145-2020-p17",
+          "source_file": "data/raw/2020_1203 + 1204_145-2020-NĐ-CP.doc",
+          "chapter": "Chương IX",
+          "section": "Chương IX - Mục 4: TRÁCH NHIỆM TỔ CHỨC THỰC HIỆN CHÍNH SÁCH",
+          "char_count": 1505
+        },
+        {
+          "page": 18,
+          "unit_id": "nd-145-2020-p18",
+          "source_file": "data/raw/2020_1203 + 1204_145-2020-NĐ-CP.doc",
+          "chapter": "Chương X",
+          "section": "Chương X: NHỮNG QUY ĐỊNH RIÊNG ĐỐI VỚI",
+          "char_count": 10686
+        },
+        {
+          "page": 19,
+          "unit_id": "nd-145-2020-p19",
+          "source_file": "data/raw/2020_1203 + 1204_145-2020-NĐ-CP.doc",
+          "chapter": "Chương XI",
+          "section": "Chương XI - Mục 1: HÒA GIẢI VIÊN LAO ĐỘNG",
+          "char_count": 13397
+        },
+        {
+          "page": 20,
+          "unit_id": "nd-145-2020-p20",
+          "source_file": "data/raw/2020_1203 + 1204_145-2020-NĐ-CP.doc",
+          "chapter": "Chương XI",
+          "section": "Chương XI - Mục 2: HỘI ĐỒNG TRỌNG TÀI LAO ĐỘNG",
+          "char_count": 8505
+        },
+        {
+          "page": 21,
+          "unit_id": "nd-145-2020-p21",
+          "source_file": "data/raw/2020_1205 + 1206_145-2020-NĐ-CP.doc",
+          "chapter": "Chương XI",
+          "section": "Chương XI - Mục 2: HỘI ĐỒNG TRỌNG TÀI LAO ĐỘNG",
+          "char_count": 8938
+        },
+        {
+          "page": 22,
+          "unit_id": "nd-145-2020-p22",
+          "source_file": "data/raw/2020_1205 + 1206_145-2020-NĐ-CP.doc",
+          "chapter": "Chương XI",
+          "section": "Chương XI - Mục 3: DANH MỤC NƠI SỬ DỤNG LAO ĐỘNG KHÔNG ĐƯỢC ĐÌNH CÔNG",
+          "char_count": 4891
+        },
+        {
+          "page": 23,
+          "unit_id": "nd-145-2020-p23",
+          "source_file": "data/raw/2020_1205 + 1206_145-2020-NĐ-CP.doc",
+          "chapter": "Chương XI",
+          "section": "Chương XI - Mục 4: HOÃN, NGỪNG ĐÌNH CÔNG VÀ GIẢI QUYẾT QUYỀN LỢI",
+          "char_count": 7642
+        },
+        {
+          "page": 24,
+          "unit_id": "nd-145-2020-p24",
+          "source_file": "data/raw/2020_1205 + 1206_145-2020-NĐ-CP.doc",
+          "chapter": "Chương XII",
+          "section": "Chương XII: ĐIỀU KHOẢN THI HÀNH",
+          "char_count": 5196
+        }
+      ]
+    },
+    {
+      "source_id": "scanned-pdfs-excluded",
+      "title": "Bản PDF ký số scan ảnh (blld-2019-45-qh14.pdf & nd-145-2020.pdf)",
+      "source_path_or_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2019/12/45.signed.pdf & https://datafiles.chinhphu.vn/cpp/files/vbpq/2020/12/145.signed.pdf",
+      "license_or_permission": "Phạm vi công cộng (Khoản 2 Điều 15 Luật SHTT)",
+      "accessed_at": "2026-11-14",
+      "physical_pages": {
+        "blld-2019-45-qh14.pdf": 83,
+        "nd-145-2020.pdf": 122
+      },
+      "valid_units_count": 0,
+      "status": "Excluded (0 extractable text chars across all 205 physical pages; replaced by official Công báo .doc files)."
+    }
+  ]
+}

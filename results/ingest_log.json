@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-11-14T03:54:46.432971+00:00",
+  "total_valid_units": 52,
+  "min_unit_chars_rule": 1500,
+  "min_unit_chars_observed": 1505,
+  "max_unit_chars_observed": 17567,
+  "total_normalized_chars": 379159,
+  "documents_summary": {
+    "blld-2019": {
+      "units": 28,
+      "chars": 189822
+    },
+    "nd-145-2020": {
+      "units": 24,
+      "chars": 189337
+    }
+  },
+  "anomalies_and_exclusions": [
+    {
+      "file": "data/raw/blld-2019-45-qh14.pdf",
+      "issue_type": "scanned_pdf_no_text_layer",
+      "total_physical_pages": 83,
+      "empty_or_scan_pages_count": 83,
+      "action_taken": "Excluded from active indexing; replaced by official Công báo .doc text edition."
+    },
+    {
+      "file": "data/raw/nd-145-2020.pdf",
+      "issue_type": "scanned_pdf_no_text_layer",
+      "total_physical_pages": 122,
+      "empty_or_scan_pages_count": 122,
+      "action_taken": "Excluded from active indexing; replaced by official Công báo .doc text edition."
+    },
+    {
+      "file": "data/raw/2020_1203 + 1204_145-2020-NĐ-CP.doc",
+      "issue_type": "cong_bao_issue_toc_header",
+      "chars_removed": 356,
+      "action_taken": "Removed Công báo issue cover/table-of-contents before 'Số: 145/2020/NĐ-CP'."
+    },
+    {
+      "file": "data/raw/2020_1205 + 1206_145-2020-NĐ-CP.doc",
+      "issue_type": "non_content_appendices_and_unrelated_treaty",
+      "chars_removed_prefix": 805,
+      "chars_removed_suffix": 50083,
+      "action_taken": "Excluded Công báo issue TOC, blank form templates (Phụ lục I-III) and unrelated Thông báo số 61/2020/TB-LPQT (Cambodia treaty) printed in the same Công báo issue."
+    },
+    {
+      "file": "data/raw/2020_1205 + 1206_145-2020-NĐ-CP.doc",
+      "issue_type": "source_heading_typo_and_word_autonumbering",
+      "detail": "Source printed 'Chương XI ĐIỀU KHOẢN THI HÀNH' (duplicate Roman numeral XI instead of XII) and used Word auto-numbering fields for 'Điều X.' headings (not stored in plain text stream).",
+      "action_taken": "Normalized final chapter label to 'Chương XII' and segmented by Chương/Mục."
+    }
+  ]
+}

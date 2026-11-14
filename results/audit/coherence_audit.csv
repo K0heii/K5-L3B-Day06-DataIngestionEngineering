@@ -1,0 +1,133 @@
+﻿position_id,unit_id,document_id,page,section,focal_source_snippet,strategy,chunk_id,chunk_char_len,chunk_text,human_coherence_score_0_1_2,human_rationale
+pos_01,blld-2019-p01,blld-2019,1,Chương I: NHỮNG QUY ĐỊNH CHUNG,"ng. 3. Người lao động nước ngoài làm việc tại Việt Nam. 4. Cơ quan, tổ chức, cá nhân khác",A,blld-2019-p01-fixed-002-79340a09,500,"ề và người làm việc không có quan hệ lao động.
+2. Người sử dụng lao động.
+3. Người lao động nước ngoài làm việc tại Việt Nam.
+4. Cơ quan, tổ chức, cá nhân khác có liên quan trực tiếp đến quan hệ lao động.
+Điều 3. Giải thích từ ngữ
+Trong Bộ luật này, các từ ngữ dưới đây được hiểu như sau:
+1. Người lao động là người làm việc cho người sử dụng lao động theo thỏa thuận, được trả lương và chịu sự quản lý, điều hành, giám sát của người sử dụng lao động.
+Độ tuổi lao động tối thiểu của người lao động là",1,"Cụt đầu câu, mất tiêu đề Điều 2 và ngắt lửng câu cuối Điều 3, nhưng phần giữa vẫn đọc hiểu được định nghĩa người lao động."
+pos_01,blld-2019-p01,blld-2019,1,Chương I: NHỮNG QUY ĐỊNH CHUNG,"ng. 3. Người lao động nước ngoài làm việc tại Việt Nam. 4. Cơ quan, tổ chức, cá nhân khác",B_and_C,blld-2019-p01-para-001-e8df99d8,653,"Chương I
+NHỮNG QUY ĐỊNH CHUNG
+Điều 1. Phạm vi điều chỉnh
+Bộ luật Lao động quy định tiêu chuẩn lao động; quyền, nghĩa vụ, trách nhiệm của người lao động, người sử dụng lao động, tổ chức đại diện người lao động tại cơ sở, tổ chức đại diện người sử dụng lao động trong quan hệ lao động và các quan hệ khác liên quan trực tiếp đến quan hệ lao động; quản lý nhà nước về lao động.
+Điều 2. Đối tượng áp dụng
+1. Người lao động, người học nghề, người tập nghề và người làm việc không có quan hệ lao động.
+2. Người sử dụng lao động.
+3. Người lao động nước ngoài làm việc tại Việt Nam.
+4. Cơ quan, tổ chức, cá nhân khác có liên quan trực tiếp đến quan hệ lao động.",2,"Giữ trọn tiêu đề Chương I, Điều 1 và đầy đủ 4 khoản của Điều 2, câu chữ hoàn chỉnh."
+pos_02,blld-2019-p02,blld-2019,2,"Chương II: VIỆC LÀM, TUYỂN DỤNG VÀ QUẢN LÝ LAO ĐỘNG & Chương III - Mục 1: GIAO KẾT HỢP ĐỒNG LAO ĐỘNG",ời sử dụng lao động hoặc thông qua tổ chức dịch vụ việc làm để tìm kiếm việc làm theo nguy,A,blld-2019-p02-fixed-002-385c8aa1,499,"ở bất kỳ nơi nào mà pháp luật không cấm.
+2. Trực tiếp liên hệ với người sử dụng lao động hoặc thông qua tổ chức dịch vụ việc làm để tìm kiếm việc làm theo nguyện vọng, khả năng, trình độ nghề nghiệp và sức khỏe của mình.
+Điều 11. Tuyển dụng lao động
+1. Người sử dụng lao động có quyền trực tiếp hoặc thông qua tổ chức dịch vụ việc làm, doanh nghiệp hoạt động cho thuê lại lao động để tuyển dụng lao động theo nhu cầu của người sử dụng lao động.
+2. Người lao động không phải trả chi phí cho việc tuyể",1,"Mất tiêu đề Điều 10 ở đầu và cắt ngang chữ ở cuối Điều 11, nhưng khoản 1 Điều 11 ở giữa vẫn đủ ý."
+pos_02,blld-2019-p02,blld-2019,2,"Chương II: VIỆC LÀM, TUYỂN DỤNG VÀ QUẢN LÝ LAO ĐỘNG & Chương III - Mục 1: GIAO KẾT HỢP ĐỒNG LAO ĐỘNG",ời sử dụng lao động hoặc thông qua tổ chức dịch vụ việc làm để tìm kiếm việc làm theo nguy,B_and_C,blld-2019-p02-para-001-e9dd3591,670,"Chương II
+VIỆC LÀM, TUYỂN DỤNG VÀ QUẢN LÝ LAO ĐỘNG
+Điều 9. Việc làm, giải quyết việc làm
+1. Việc làm là hoạt động lao động tạo ra thu nhập mà pháp luật không cấm.
+2. Nhà nước, người sử dụng lao động và xã hội có trách nhiệm tham gia giải quyết việc làm, bảo đảm cho mọi người có khả năng lao động đều có cơ hội có việc làm.
+Điều 10. Quyền làm việc của người lao động
+1. Được tự do lựa chọn việc làm, làm việc cho bất kỳ người sử dụng lao động nào và ở bất kỳ nơi nào mà pháp luật không cấm.
+2. Trực tiếp liên hệ với người sử dụng lao động hoặc thông qua tổ chức dịch vụ việc làm để tìm kiếm việc làm theo nguyện vọng, khả năng, trình độ nghề nghiệp và sức khỏe của mình.",2,"Đầy đủ tiêu đề Chương II, trọn vẹn Điều 9 và Điều 10, không bị cắt lửng câu."
+pos_03,blld-2019-p03,blld-2019,3,Chương III - Mục 2: THỰC HIỆN HỢP ĐỒNG LAO ĐỘNG,"ề nghiệp, sự cố điện, nước hoặc do nhu cầu sản xuất, kinh doanh thì người sử dụng lao động",A,blld-2019-p03-fixed-002-7d7d1925,499,"iểm, áp dụng biện pháp ngăn ngừa, khắc phục tai nạn lao động, bệnh nghề nghiệp, sự cố điện, nước hoặc do nhu cầu sản xuất, kinh doanh thì người sử dụng lao động được quyền tạm thời chuyển người lao động làm công việc khác so với hợp đồng lao động nhưng không được quá 60 ngày làm việc cộng dồn trong 01 năm; trường hợp chuyển người lao động làm công việc khác so với hợp đồng lao động quá 60 ngày làm việc cộng dồn trong 01 năm thì chỉ được thực hiện khi người lao động đồng ý bằng văn bản.
+Người sử",1,"Cắt ngang chữ ở cả đầu và cuối, mất tiêu đề Điều 29, nhưng phần giữa vẫn nêu rõ quy tắc chuyển việc tạm thời tối đa 60 ngày."
+pos_03,blld-2019-p03,blld-2019,3,Chương III - Mục 2: THỰC HIỆN HỢP ĐỒNG LAO ĐỘNG,"ề nghiệp, sự cố điện, nước hoặc do nhu cầu sản xuất, kinh doanh thì người sử dụng lao động",B_and_C,blld-2019-p03-para-002-30d66120,634,"Điều 29. Chuyển người lao động làm công việc khác so với hợp đồng lao động
+1. Khi gặp khó khăn đột xuất do thiên tai, hỏa hoạn, dịch bệnh nguy hiểm, áp dụng biện pháp ngăn ngừa, khắc phục tai nạn lao động, bệnh nghề nghiệp, sự cố điện, nước hoặc do nhu cầu sản xuất, kinh doanh thì người sử dụng lao động được quyền tạm thời chuyển người lao động làm công việc khác so với hợp đồng lao động nhưng không được quá 60 ngày làm việc cộng dồn trong 01 năm; trường hợp chuyển người lao động làm công việc khác so với hợp đồng lao động quá 60 ngày làm việc cộng dồn trong 01 năm thì chỉ được thực hiện khi người lao động đồng ý bằng văn bản.",2,Giữ trọn tên Điều 29 và toàn bộ nội dung khoản 1 hoàn chỉnh từ đầu đến cuối.
+pos_04,blld-2019-p04,blld-2019,4,Chương III - Mục 3: CHẤM DỨT HỢP ĐỒNG LAO ĐỘNG,"trong hợp đồng lao động theo bản án, quyết định của Tòa án đã có hiệu lực pháp luật. 5. N",A,blld-2019-p04-fixed-002-6568fdec,500,"328 của Bộ luật Tố tụng hình sự, tử hình hoặc bị cấm làm công việc ghi trong hợp đồng lao động theo bản án, quyết định của Tòa án đã có hiệu lực pháp luật.
+5. Người lao động là người nước ngoài làm việc tại Việt Nam bị trục xuất theo bản án, quyết định của Tòa án đã có hiệu lực pháp luật, quyết định của cơ quan nhà nước có thẩm quyền.
+6. Người lao động chết; bị Tòa án tuyên bố mất năng lực hành vi dân sự, mất tích hoặc đã chết.
+7. Người sử dụng lao động là cá nhân chết; bị Tòa án tuyên bố mất nă",0,"Bắt đầu ngang từ số điều luật dẫn chiếu và cắt ngang chữ ở cuối, mất tiêu đề Điều 34 nên không rõ đây là các trường hợp chấm dứt hợp đồng."
+pos_04,blld-2019-p04,blld-2019,4,Chương III - Mục 3: CHẤM DỨT HỢP ĐỒNG LAO ĐỘNG,"trong hợp đồng lao động theo bản án, quyết định của Tòa án đã có hiệu lực pháp luật. 5. N",B_and_C,blld-2019-p04-para-001-465a9635,785,"Chương III - HỢP ĐỒNG LAO ĐỘNG
+Mục 3
+CHẤM DỨT HỢP ĐỒNG LAO ĐỘNG
+Điều 34. Các trường hợp chấm dứt hợp đồng lao động
+1. Hết hạn hợp đồng lao động, trừ trường hợp quy định tại khoản 4 Điều 177 của Bộ luật này.
+2. Đã hoàn thành công việc theo hợp đồng lao động.
+3. Hai bên thỏa thuận chấm dứt hợp đồng lao động.
+4. Người lao động bị kết án phạt tù nhưng không được hưởng án treo hoặc không thuộc trường hợp được trả tự do theo quy định tại khoản 5 Điều 328 của Bộ luật Tố tụng hình sự, tử hình hoặc bị cấm làm công việc ghi trong hợp đồng lao động theo bản án, quyết định của Tòa án đã có hiệu lực pháp luật.
+5. Người lao động là người nước ngoài làm việc tại Việt Nam bị trục xuất theo bản án, quyết định của Tòa án đã có hiệu lực pháp luật, quyết định của cơ quan nhà nước có thẩm quyền.",2,"Có đủ tiêu đề Chương III, Mục 3, Điều 34 và trình bày trọn vẹn từ khoản 1 đến khoản 5."
+pos_05,blld-2019-p05,blld-2019,5,Chương III - Mục 4: HỢP ĐỒNG LAO ĐỘNG VÔ HIỆU & Chương III - Mục 5: CHO THUÊ LẠI LAO ĐỘNG,ó vi phạm pháp luật nhưng không ảnh hưởng đến các phần còn lại của hợp đồng. Điều 50. Thẩm,A,blld-2019-p05-fixed-002-13e69385,500,"ật cấm.
+2. Hợp đồng lao động vô hiệu từng phần khi nội dung của phần đó vi phạm pháp luật nhưng không ảnh hưởng đến các phần còn lại của hợp đồng.
+Điều 50. Thẩm quyền tuyên bố hợp đồng lao động vô hiệu
+Tòa án nhân dân có quyền tuyên bố hợp đồng lao động vô hiệu.
+Điều 51. Xử lý hợp đồng lao động vô hiệu
+1. Khi hợp đồng lao động bị tuyên bố vô hiệu từng phần thì xử lý như sau:
+a) Quyền, nghĩa vụ và lợi ích của hai bên được giải quyết theo thỏa ước lao động tập thể đang áp dụng; trường hợp không có",1,"Bị cắt ngang chữ ở đầu Điều 49 và ngắt lửng ở cuối Điều 51, nhưng phần giữa giữ trọn vẹn Điều 50 về thẩm quyền của Tòa án."
+pos_05,blld-2019-p05,blld-2019,5,Chương III - Mục 4: HỢP ĐỒNG LAO ĐỘNG VÔ HIỆU & Chương III - Mục 5: CHO THUÊ LẠI LAO ĐỘNG,ó vi phạm pháp luật nhưng không ảnh hưởng đến các phần còn lại của hợp đồng. Điều 50. Thẩm,B_and_C,blld-2019-p05-para-001-f1e1307f,595,"Chương III - HỢP ĐỒNG LAO ĐỘNG
+Mục 4
+HỢP ĐỒNG LAO ĐỘNG VÔ HIỆU
+Điều 49. Hợp đồng lao động vô hiệu
+1. Hợp đồng lao động vô hiệu toàn bộ trong trường hợp sau đây:
+a) Toàn bộ nội dung của hợp đồng lao động vi phạm pháp luật;
+b) Người giao kết hợp đồng lao động không đúng thẩm quyền hoặc vi phạm nguyên tắc giao kết hợp đồng lao động quy định tại khoản 1 Điều 15 của Bộ luật này;
+c) Công việc đã giao kết trong hợp đồng lao động là công việc mà pháp luật cấm.
+2. Hợp đồng lao động vô hiệu từng phần khi nội dung của phần đó vi phạm pháp luật nhưng không ảnh hưởng đến các phần còn lại của hợp đồng.",2,"Giữ trọn tiêu đề Chương III, Mục 4 và toàn bộ nội dung Điều 49 về hợp đồng lao động vô hiệu."
+pos_06,nd-145-2020-p01,nd-145-2020,1,Chương I: NHỮNG QUY ĐỊNH CHUNG & Chương II: QUẢN LÝ LAO ĐỘNG,heo khoản 4 Điều 63. 5. Tiền lương theo khoản 3 Điều 92; khoản 3 Điều 96; khoản 4 Điều 98.,A,nd-145-2020-p01-fixed-002-6bb76308,499,"chức đối thoại và thực hiện quy chế dân chủ ở cơ sở tại nơi làm việc theo khoản 4 Điều 63.
+5. Tiền lương theo khoản 3 Điều 92; khoản 3 Điều 96; khoản 4 Điều 98.
+6. Thời giờ làm việc, thời giờ nghỉ ngơi theo khoản 5 Điều 107, khoản 7 Điều 113, Điều 116.
+7. Kỷ luật lao động, trách nhiệm vật chất theo khoản 5 Điều 118; khoản 6 Điều 122; khoản 2 Điều 130; Điều 131.
+8. Lao động nữ và bảo đảm bình đẳng giới theo khoản 6 Điều 135.
+9. Lao động là người giúp việc gia đình theo khoản 2 Điều 161.
+10. Giải",0,"Cắt ngang chữ ở đầu và cuối, mất câu mở đầu về phạm vi điều chỉnh nên chỉ còn danh mục dẫn chiếu rời rạc."
+pos_06,nd-145-2020-p01,nd-145-2020,1,Chương I: NHỮNG QUY ĐỊNH CHUNG & Chương II: QUẢN LÝ LAO ĐỘNG,heo khoản 4 Điều 63. 5. Tiền lương theo khoản 3 Điều 92; khoản 3 Điều 96; khoản 4 Điều 98.,B_and_C,nd-145-2020-p01-para-001-8ff6fec3,701,"Chương I
+NHỮNG QUY ĐỊNH CHUNG
+Phạm vi điều chỉnh
+Nghị định này quy định chi tiết và hướng dẫn thi hành một số nội dung về điều kiện lao động và quan hệ lao động theo các điều, khoản sau đây của Bộ luật Lao động:
+1. Quản lý lao động theo khoản 3 Điều 12.
+2. Hợp đồng lao động theo khoản 4 Điều 21; điểm d khoản 1 Điều 35, điểm d khoản 2 Điều 36; khoản 4 Điều 46; khoản 4 Điều 47; khoản 3 Điều 51.
+3. Cho thuê lại lao động theo khoản 2 Điều 54.
+4. Tổ chức đối thoại và thực hiện quy chế dân chủ ở cơ sở tại nơi làm việc theo khoản 4 Điều 63.
+5. Tiền lương theo khoản 3 Điều 92; khoản 3 Điều 96; khoản 4 Điều 98.
+6. Thời giờ làm việc, thời giờ nghỉ ngơi theo khoản 5 Điều 107, khoản 7 Điều 113, Điều 116.",2,"Có đủ tiêu đề Chương I, phần Phạm vi điều chỉnh và trọn vẹn các khoản từ 1 đến 6."
+pos_07,nd-145-2020-p02,nd-145-2020,2,Chương III - Mục 1: NỘI DUNG HỢP ĐỒNG LAO ĐỘNG ĐỐI VỚI NGƯỜI LAO ĐỘNG,hoặc tổng số cổ phần có quyền biểu quyết tại khoản 4 Điều 21 của Bộ luật Lao động gồm nhữ,A,nd-145-2020-p02-fixed-001-7379f5c5,499,"Chương III
+HỢP ĐỒNG LAO ĐỘNG
+
+Mục 1
+NỘI DUNG HỢP ĐỒNG LAO ĐỘNG ĐỐI VỚI NGƯỜI LAO ĐỘNG
+ĐƯỢC THUÊ LÀM GIÁM ĐỐC TRONG DOANH NGHIỆP
+CÓ VỐN NHÀ NƯỚC
+
+Nội dung hợp đồng lao động đối với người lao động được thuê làm giám đốc trong doanh nghiệp do Nhà nước nắm giữ 100% vốn điều lệ hoặc Nhà nước nắm giữ trên 50% vốn điều lệ hoặc tổng số cổ phần có quyền biểu quyết
+Hợp đồng lao động đối với người lao động được thuê làm giám đốc trong doanh nghiệp do Nhà nước nắm giữ 100% vốn điều lệ hoặc Nhà nước nắm giữ",1,Giữ được tiêu đề Chương III và Mục 1 ở đầu nhưng cắt ngang giữa câu mở đầu của nội dung điều khoản nên chưa nêu được quy định cụ thể.
+pos_07,nd-145-2020-p02,nd-145-2020,2,Chương III - Mục 1: NỘI DUNG HỢP ĐỒNG LAO ĐỘNG ĐỐI VỚI NGƯỜI LAO ĐỘNG,hoặc tổng số cổ phần có quyền biểu quyết tại khoản 4 Điều 21 của Bộ luật Lao động gồm nhữ,B_and_C,nd-145-2020-p02-para-001-bf838f6a,628,"Chương III
+HỢP ĐỒNG LAO ĐỘNG
+Mục 1
+NỘI DUNG HỢP ĐỒNG LAO ĐỘNG ĐỐI VỚI NGƯỜI LAO ĐỘNG
+ĐƯỢC THUÊ LÀM GIÁM ĐỐC TRONG DOANH NGHIỆP
+CÓ VỐN NHÀ NƯỚC
+Nội dung hợp đồng lao động đối với người lao động được thuê làm giám đốc trong doanh nghiệp do Nhà nước nắm giữ 100% vốn điều lệ hoặc Nhà nước nắm giữ trên 50% vốn điều lệ hoặc tổng số cổ phần có quyền biểu quyết
+Hợp đồng lao động đối với người lao động được thuê làm giám đốc trong doanh nghiệp do Nhà nước nắm giữ 100% vốn điều lệ hoặc Nhà nước nắm giữ trên 50% vốn điều lệ hoặc tổng số cổ phần có quyền biểu quyết tại khoản 4 Điều 21 của Bộ luật Lao động gồm những nội dung chủ yếu:",2,"Giữ trọn vẹn tiêu đề Chương III, Mục 1 và câu dẫn hoàn chỉnh của điều khoản mà không bị cắt ngang chữ.   "
+pos_08,nd-145-2020-p03,nd-145-2020,3,Chương III - Mục 2: CHẤM DỨT HỢP ĐỒNG LAO ĐỘNG,"điều độ, khai thác bay; b) Người quản lý doanh nghiệp theo quy định của Luật Doanh nghiệp;",A,nd-145-2020-p03-fixed-002-2daf98d9,499,"dưỡng tàu bay, nhân viên sửa chữa chuyên ngành hàng không; nhân viên điều độ, khai thác bay;
+b) Người quản lý doanh nghiệp theo quy định của Luật Doanh nghiệp; Luật Quản lý, sử dụng vốn nhà nước đầu tư vào sản xuất, kinh doanh tại doanh nghiệp;
+c) Thuyền viên thuộc thuyền bộ làm việc trên tàu Việt Nam đang hoạt động ở nước ngoài; thuyền viên được doanh nghiệp Việt Nam cho thuê lại làm việc trên tàu biển nước ngoài;
+d) Trường hợp khác do pháp luật quy định.
+2. Khi người lao động làm ngành, nghề,",0,"Bị cắt ngang chữ ở đầu và cuối, mất tiêu đề điều khoản nên không thể biết danh sách ngành nghề này đang quy định về vấn đề gì."
+pos_08,nd-145-2020-p03,nd-145-2020,3,Chương III - Mục 2: CHẤM DỨT HỢP ĐỒNG LAO ĐỘNG,"điều độ, khai thác bay; b) Người quản lý doanh nghiệp theo quy định của Luật Doanh nghiệp;",B_and_C,nd-145-2020-p03-para-001-e972f961,694,"Chương III - HỢP ĐỒNG LAO ĐỘNG
+Mục 2
+CHẤM DỨT HỢP ĐỒNG LAO ĐỘNG
+Thời hạn báo trước khi đơn phương chấm dứt hợp đồng lao động đối với một số ngành, nghề, công việc đặc thù
+Ngành, nghề, công việc đặc thù và thời hạn báo trước khi đơn phương chấm dứt hợp đồng lao động quy định tại điểm d khoản 1 Điều 35 và điểm d khoản 2 Điều 36 của Bộ luật Lao động như sau:
+1. Ngành, nghề, công việc đặc thù gồm:
+a) Thành viên tổ lái tàu bay; nhân viên kỹ thuật bảo dưỡng tàu bay, nhân viên sửa chữa chuyên ngành hàng không; nhân viên điều độ, khai thác bay;
+b) Người quản lý doanh nghiệp theo quy định của Luật Doanh nghiệp; Luật Quản lý, sử dụng vốn nhà nước đầu tư vào sản xuất, kinh doanh tại doanh nghiệp;",2,"Đầy đủ tiêu đề Chương III, Mục 2, tên điều khoản và trọn vẹn các điểm a, b của khoản 1."
+pos_09,nd-145-2020-p04,nd-145-2020,4,Chương III - Mục 3: XỬ LÝ HỢP ĐỒNG LAO ĐỘNG VÔ HIỆU,ầu làm việc theo hợp đồng lao động bị tuyên bố vô hiệu từng phần đến khi hợp đồng lao động,A,nd-145-2020-p04-fixed-002-677b2318,500,"2. Quyền, nghĩa vụ và lợi ích của hai bên trong thời gian từ khi bắt đầu làm việc theo hợp đồng lao động bị tuyên bố vô hiệu từng phần đến khi hợp đồng lao động được sửa đổi, bổ sung thì được giải quyết theo thỏa ước lao động tập thể đang áp dụng, trường hợp không có thỏa ước lao động tập thể thì thực hiện theo quy định của pháp luật.
+Trường hợp hợp đồng lao động bị tuyên bố vô hiệu có tiền lương thấp hơn so với quy định của pháp luật về lao động, thỏa ước lao động tập thể đang áp dụng thì hai b",1,"Thiếu tiêu đề điều khoản ở đầu và cắt ngang chữ ở khoản cuối, nhưng khoản 2 ở giữa vẫn trọn vẹn và hiểu được quy tắc giải quyết quyền lợi."
+pos_09,nd-145-2020-p04,nd-145-2020,4,Chương III - Mục 3: XỬ LÝ HỢP ĐỒNG LAO ĐỘNG VÔ HIỆU,ầu làm việc theo hợp đồng lao động bị tuyên bố vô hiệu từng phần đến khi hợp đồng lao động,B_and_C,nd-145-2020-p04-para-001-a31a0452,785,"Chương III - HỢP ĐỒNG LAO ĐỘNG
+Mục 3
+XỬ LÝ HỢP ĐỒNG LAO ĐỘNG VÔ HIỆU
+Xử lý hợp đồng lao động vô hiệu từng phần
+Việc xử lý hợp đồng lao động vô hiệu từng phần tại khoản 1 Điều 51 của Bộ luật Lao động được quy định như sau:
+1. Khi hợp đồng lao động bị tuyên bố vô hiệu từng phần, người sử dụng lao động và người lao động tiến hành sửa đổi, bổ sung phần của hợp đồng lao động bị tuyên bố vô hiệu cho phù hợp với thỏa ước lao động tập thể và pháp luật.
+2. Quyền, nghĩa vụ và lợi ích của hai bên trong thời gian từ khi bắt đầu làm việc theo hợp đồng lao động bị tuyên bố vô hiệu từng phần đến khi hợp đồng lao động được sửa đổi, bổ sung thì được giải quyết theo thỏa ước lao động tập thể đang áp dụng, trường hợp không có thỏa ước lao động tập thể thì thực hiện theo quy định của pháp luật.",2,"Giữ trọn tiêu đề Chương III, Mục 3, tên điều khoản và đầy đủ hai khoản 1, 2 hoàn chỉnh."
+pos_10,nd-145-2020-p05,nd-145-2020,5,Chương IV - Mục 1: QUY ĐỊNH CHUNG VỀ CHO THUÊ LẠI LAO ĐỘNG & Chương IV - Mục 2: KÝ QUỸ CỦA DOANH NGHIỆP CHO THUÊ LẠI,là doanh nghiệp cho thuê lại). Bên thuê lại lao động Bên thuê lại lao động là doanh nghiệp,A,nd-145-2020-p05-fixed-002-38fcff53,499,"lao động với doanh nghiệp đã giao kết hợp đồng lao động (sau đây gọi là doanh nghiệp cho thuê lại).
+Bên thuê lại lao động
+Bên thuê lại lao động là doanh nghiệp, cơ quan, tổ chức, hợp tác xã, hộ gia đình và cá nhân có năng lực hành vi dân sự đầy đủ, có sử dụng người lao động thuê lại để làm những công việc theo danh mục công việc được phép thuê lại lao động trong một thời gian nhất định.
+Người lao động thuê lại
+Người lao động thuê lại là người lao động có năng lực hành vi dân sự đầy đủ, được doa",1,"Cụt câu đầu và cắt ngang chữ ở định nghĩa cuối, nhưng phần giữa giữ trọn vẹn khái niệm Bên thuê lại lao động."
+pos_10,nd-145-2020-p05,nd-145-2020,5,Chương IV - Mục 1: QUY ĐỊNH CHUNG VỀ CHO THUÊ LẠI LAO ĐỘNG & Chương IV - Mục 2: KÝ QUỸ CỦA DOANH NGHIỆP CHO THUÊ LẠI,là doanh nghiệp cho thuê lại). Bên thuê lại lao động Bên thuê lại lao động là doanh nghiệp,B_and_C,nd-145-2020-p05-para-001-4dd27632,570,"Chương IV
+CHO THUÊ LẠI LAO ĐỘNG
+Mục 1
+QUY ĐỊNH CHUNG VỀ CHO THUÊ LẠI LAO ĐỘNG
+Doanh nghiệp cho thuê lại lao động
+Doanh nghiệp cho thuê lại lao động là doanh nghiệp được thành lập theo quy định của Luật Doanh nghiệp, được cấp giấy phép hoạt động cho thuê lại lao động, có tuyển dụng, giao kết hợp đồng lao động với người lao động, sau đó chuyển người lao động sang làm việc và chịu sự điều hành của người sử dụng lao động khác mà vẫn duy trì quan hệ lao động với doanh nghiệp đã giao kết hợp đồng lao động (sau đây gọi là doanh nghiệp cho thuê lại).
+Bên thuê lại lao động",2,"Đầy đủ tiêu đề Chương IV, Mục 1 và trọn vẹn định nghĩa về doanh nghiệp cho thuê lại lao động. "

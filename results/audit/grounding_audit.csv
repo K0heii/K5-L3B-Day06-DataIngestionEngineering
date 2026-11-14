@@ -1,0 +1,247 @@
+﻿strategy,question_id,question_type,question,expected_answer,gold_source_id,gold_page,gold_evidence_quote,auto_hit_at_1,auto_evidence_hit_at_3,top1_chunk_id,top1_text,top2_chunk_id,top2_text,top3_chunk_id,top3_text,human_grounding_score_0_1_2,human_rationale
+A,q19,dieu_kien_ngoai_le,Khi hợp đồng lao động chấm dứt thì mức trợ cấp thôi việc mỗi năm làm việc là bao nhiêu và những trường hợp nào không được nhận trợ cấp thôi việc?,Mỗi năm làm việc được trợ cấp một nửa tháng tiền lương (đối với người đã làm việc thường xuyên từ đủ 12 tháng trở lên); trừ trường hợp đủ điều kiện hưởng lương hưu và trường hợp tự ý bỏ việc không có lý do chính đáng từ 05 ngày làm việc liên tục trở lên.,blld-2019,4,"mỗi năm làm việc được trợ cấp một nửa tháng tiền lương, trừ trường hợp đủ điều kiện hưởng lương hưu theo quy định của pháp luật về bảo hiểm xã hội và trường hợp quy định tại điểm e khoản 1 Điều 36 của Bộ luật này.",True,True,blld-2019-p04-fixed-031-2bed4510,"động chấm dứt theo quy định tại các khoản 1, 2, 3, 4, 6, 7, 9 và 10 Điều 34 của Bộ luật này thì người sử dụng lao động có trách nhiệm trả trợ cấp thôi việc cho người lao động đã làm việc thường xuyên cho mình từ đủ 12 tháng trở lên, mỗi năm làm việc được trợ cấp một nửa tháng tiền lương, trừ trường hợp đủ điều kiện hưởng lương hưu theo quy định của pháp luật về bảo hiểm xã hội và trường hợp quy định tại điểm e khoản 1 Điều 36 của Bộ luật này.
+2. Thời gian làm việc để tính trợ cấp thôi việc là t",nd-145-2020-p03-fixed-004-acd917af,"đối với hợp đồng lao động có thời hạn dưới 12 tháng.
+Trợ cấp thôi việc, trợ cấp mất việc làm
+1. Người sử dụng lao động có trách nhiệm chi trả trợ cấp thôi việc theo quy định tại Điều 46 của Bộ luật Lao động đối với người lao động đã làm việc thường xuyên cho mình từ đủ 12 tháng trở lên khi hợp đồng lao động chấm dứt theo quy định tại các khoản 1, 2, 3, 4, 6, 7, 9 và 10 Điều 34 của Bộ luật Lao động, trừ các trường hợp sau:
+a) Người lao động đủ điều kiện hưởng lương hưu theo quy định tại Điều 169",blld-2019-p04-fixed-019-96c12741,"ền trợ cấp thôi việc, trợ cấp mất việc làm nếu đã nhận của người sử dụng lao động.
+Trường hợp không còn vị trí, công việc đã giao kết trong hợp đồng lao động mà người lao động vẫn muốn làm việc thì hai bên thỏa thuận để sửa đổi, bổ sung hợp đồng lao động.
+Trường hợp vi phạm quy định về thời hạn báo trước quy định tại khoản 2 Điều 36 của Bộ luật này thì phải trả một khoản tiền tương ứng với tiền lương theo hợp đồng lao động trong những ngày không báo trước.
+2. Trường hợp người lao động không muốn",1,"Top 1 có mức trợ cấp nửa tháng lương và đoạn Gold Evidence, nhưng Top 2 bị cắt mất điểm b giải thích ngoại lệ tự ý bỏ việc 05 ngày liên tục."
+A,q20,truc_tiep,Người lao động làm việc từ 06 giờ trở lên trong một ngày hoặc làm việc vào ban đêm thì được nghỉ giữa giờ liên tục tối thiểu bao nhiêu phút?,Nghỉ giữa giờ ít nhất 30 phút liên tục; nếu làm việc ban đêm thì được nghỉ giữa giờ ít nhất 45 phút liên tục.,blld-2019,12,"1. Người lao động làm việc theo thời giờ làm việc quy định tại Điều 105 của Bộ luật này từ 06 giờ trở lên trong một ngày thì được nghỉ giữa giờ ít nhất 30 phút liên tục, làm việc ban đêm thì được nghỉ giữa giờ ít nhất 45 phút liên tục.",True,True,blld-2019-p12-fixed-001-ec8c4ef8,"Chương VII - THỜI GIỜ LÀM VIỆC, THỜI GIỜ NGHỈ NGƠI
+Mục 2
+THỜI GIỜ NGHỈ NGƠI
+
+Điều 109. Nghỉ trong giờ làm việc
+1. Người lao động làm việc theo thời giờ làm việc quy định tại Điều 105 của Bộ luật này từ 06 giờ trở lên trong một ngày thì được nghỉ giữa giờ ít nhất 30 phút liên tục, làm việc ban đêm thì được nghỉ giữa giờ ít nhất 45 phút liên tục.
+Trường hợp người lao động làm việc theo ca liên tục từ 06 giờ trở lên thì thời gian nghỉ giữa giờ được tính vào giờ làm việc.
+2. Ngoài thời gian nghỉ quy",nd-145-2020-p12-fixed-012-ef0ed29a,":
+a) Người lao động làm việc trong ca từ 06 giờ trở lên;
+b) Thời gian chuyển tiếp giữa hai ca làm việc liền kề không quá 45 phút.
+Nghỉ trong giờ làm việc
+1. Thời gian nghỉ giữa giờ ít nhất 45 phút liên tục theo quy định tại khoản 1 Điều 109 của Bộ luật Lao động được áp dụng đối với người lao động làm việc từ 06 giờ trở lên trong một ngày, trong đó có ít nhất 03 giờ làm việc trong khung giờ làm việc ban đêm quy định tại Điều 106 của Bộ luật Lao động.
+2. Thời gian nghỉ giữa giờ được tính vào giờ l",nd-145-2020-p12-fixed-013-df4bde8f,"ng.
+2. Thời gian nghỉ giữa giờ được tính vào giờ làm việc đối với trường hợp làm việc theo ca liên tục quy định tại khoản 3 Điều 63 Nghị định này ít nhất 30 phút, riêng trường hợp làm việc ban đêm thì được tính ít nhất 45 phút.
+3. Người sử dụng lao động quyết định thời điểm nghỉ trong giờ làm việc, nhưng không được bố trí thời gian nghỉ này vào thời điểm bắt đầu hoặc kết thúc ca làm việc.
+4. Ngoài trường hợp làm việc theo ca liên tục quy định tại khoản 3 Điều 63 Nghị định này, khuyến khích các b",2,"Top 1 chứa trọn vẹn khoản 1 Điều 109 nêu rõ mốc 30 phút và 45 phút, Top 2 bổ sung thêm điều kiện làm việc ban đêm."
+A,q21,metadata_filter,"Khi sử dụng người lao động cao tuổi đang hưởng lương hưu theo hợp đồng lao động mới, quyền lợi của người lao động và điều kiện giao kết hợp đồng xác định thời hạn được quy định ra sao?","Hai bên có thể thỏa thuận giao kết nhiều lần hợp đồng lao động xác định thời hạn; ngoài quyền lợi đang hưởng theo chế độ hưu trí, người lao động cao tuổi được hưởng tiền lương và các quyền lợi khác theo quy định của pháp luật, hợp đồng lao động.",blld-2019,17,"1. Khi sử dụng người lao động cao tuổi, hai bên có thể thỏa thuận giao kết nhiều lần hợp đồng lao động xác định thời hạn.",True,True,blld-2019-p17-fixed-002-c963f9fc,"cao tuổi làm việc phù hợp với sức khỏe để bảo đảm quyền lao động và sử dụng hiệu quả nguồn nhân lực.
+Điều 149. Sử dụng người lao động cao tuổi
+1. Khi sử dụng người lao động cao tuổi, hai bên có thể thỏa thuận giao kết nhiều lần hợp đồng lao động xác định thời hạn.
+2. Khi người lao động cao tuổi đang hưởng lương hưu theo quy định của Luật Bảo hiểm xã hội mà làm việc theo hợp đồng lao động mới thì ngoài quyền lợi đang hưởng theo chế độ hưu trí, người lao động cao tuổi được hưởng tiền lương và các",blld-2019-p17-fixed-003-b9e84a91,"ười lao động cao tuổi được hưởng tiền lương và các quyền lợi khác theo quy định của pháp luật, hợp đồng lao động.
+3. Không được sử dụng người lao động cao tuổi làm nghề, công việc nặng nhọc, độc hại, nguy hiểm hoặc đặc biệt nặng nhọc, độc hại, nguy hiểm có ảnh hưởng xấu tới sức khỏe người lao động cao tuổi, trừ trường hợp bảo đảm các điều kiện làm việc an toàn.
+4. Người sử dụng lao động có trách nhiệm quan tâm chăm sóc sức khỏe của người lao động cao tuổi tại nơi làm việc.
+
+Chương XI - NHỮNG QUY",blld-2019-p17-fixed-001-4ff2f980,"Chương XI - NHỮNG QUY ĐỊNH RIÊNG ĐỐI VỚI LAO ĐỘNG
+Mục 2
+NGƯỜI LAO ĐỘNG CAO TUỔI
+
+Điều 148. Người lao động cao tuổi
+1. Người lao động cao tuổi là người tiếp tục lao động sau độ tuổi theo quy định tại khoản 2 Điều 169 của Bộ luật này.
+2. Người lao động cao tuổi có quyền thỏa thuận với người sử dụng lao động về việc rút ngắn thời giờ làm việc hằng ngày hoặc áp dụng chế độ làm việc không trọn thời gian.
+3. Nhà nước khuyến khích sử dụng người lao động cao tuổi làm việc phù hợp với sức khỏe để bảo đảm",2,Top 1 và Top 2 ghép lại cung cấp đầy đủ nội dung khoản 1 và khoản 2 Điều 149 về giao kết hợp đồng nhiều lần và quyền lợi lương hưu.
+A,q22,metadata_filter,"Người sử dụng lao động sử dụng từ bao nhiêu lao động nữ trở lên thì bắt buộc phải lắp đặt phòng vắt, trữ sữa mẹ tại nơi làm việc?","Sử dụng từ 1.000 người lao động nữ trở lên thì phải lắp đặt phòng vắt, trữ sữa mẹ tại nơi làm việc.",nd-145-2020,15,"Trường hợp người sử dụng lao động sử dụng từ 1.000 người lao động nữ trở lên thì phải lắp đặt phòng vắt, trữ sữa mẹ tại nơi làm việc.",True,True,nd-145-2020-p15-fixed-011-8f9a694e,"ong thời gian được nghỉ.
+5. Khuyến khích người sử dụng lao động lắp đặt phòng vắt, trữ sữa mẹ phù hợp với điều kiện thực tế tại nơi làm việc, nhu cầu của lao động nữ và khả năng của người sử dụng lao động. Trường hợp người sử dụng lao động sử dụng từ 1.000 người lao động nữ trở lên thì phải lắp đặt phòng vắt, trữ sữa mẹ tại nơi làm việc.
+6. Khuyến khích người sử dụng lao động tạo điều kiện để lao động nữ nuôi con từ 12 tháng tuổi trở lên vắt, trữ sữa mẹ tại nơi làm việc. Thời gian nghỉ để vắt, t",nd-145-2020-p15-fixed-012-8f4e930a,"sữa mẹ tại nơi làm việc. Thời gian nghỉ để vắt, trữ sữa mẹ do người lao động thỏa thuận với người sử dụng lao động.
+Tổ chức nhà trẻ, lớp mẫu giáo ở nơi có nhiều lao động
+1. Ủy ban nhân dân cấp tỉnh có trách nhiệm:
+a) Bố trí dành quỹ đất xây dựng nhà trẻ, lớp mẫu giáo ở nơi có nhiều lao động trong kế hoạch sử dụng đất của địa phương;
+b) Xây dựng nhà trẻ, lớp mẫu giáo bảo đảm đáp ứng nhu cầu của người lao động;
+c) Đầu tư cơ sở hạ tầng, xây dựng một phần hoặc toàn bộ công trình hoặc sử dụng quỹ nh",nd-145-2020-p14-fixed-003-80b39136,"thị trấn có từ 3.000 người lao động trở lên đăng ký thường trú hoặc đăng ký tạm trú tại xã, phường, thị trấn đó.
+Phòng vắt, trữ sữa mẹ
+Phòng vắt, trữ sữa mẹ là một không gian riêng tư, không phải buồng tắm hay buồng vệ sinh; có nguồn điện, nước, bàn, ghế, tủ lạnh bảo đảm vệ sinh, quạt hoặc điều hòa; bố trí ở vị trí thuận tiện sử dụng, được che chắn khỏi sự xâm phạm, tầm nhìn của đồng nghiệp và công cộng để lao động nữ có thể cho con bú hoặc vắt, trữ sữa.
+Nhà trẻ, lớp mẫu giáo
+Nhà trẻ, lớp mẫu g",2,"Top 1 chứa nguyên văn câu quy định mốc từ 1.000 lao động nữ trở lên bắt buộc lắp đặt phòng vắt, trữ sữa mẹ."
+A,q23,dieu_kien_ngoai_le,"Đối với lao động là người giúp việc gia đình, trong quá trình thực hiện hợp đồng lao động mỗi bên có quyền đơn phương chấm dứt hợp đồng mà không cần lý do nhưng phải báo trước ít nhất bao nhiêu ngày?","Phải báo trước ít nhất 15 ngày (trừ một số trường hợp đặc biệt như không được bố trí đúng công việc, không được trả đủ lương, bị ngược đãi, quấy rối tình dục... thì không phải báo trước).",nd-145-2020,18,"d) Trong quá trình thực hiện hợp đồng lao động, mỗi bên có quyền đơn phương chấm dứt hợp đồng lao động mà không cần lý do nhưng phải báo trước ít nhất 15 ngày, trừ các trường hợp sau thì không phải báo trước:",False,True,blld-2019-p18-fixed-006-718102f6,"ệc gia đình do hai bên thỏa thuận. Một bên có quyền đơn phương chấm dứt hợp đồng lao động bất kỳ khi nào nhưng phải báo trước ít nhất 15 ngày.
+3. Hai bên thỏa thuận trong hợp đồng lao động về hình thức trả lương, kỳ hạn trả lương, thời giờ làm việc hằng ngày, chỗ ở.
+Điều 163. Nghĩa vụ của người sử dụng lao động khi sử dụng lao động là người giúp việc gia đình
+1. Thực hiện đầy đủ thỏa thuận đã giao kết trong hợp đồng lao động.
+2. Trả cho người giúp việc gia đình khoản tiền bảo hiểm xã hội, bảo hi",nd-145-2020-p18-fixed-005-5af87dbe,"thể các quyền, nghĩa vụ và lợi ích của mỗi bên trong hợp đồng lao động để thực hiện phù hợp với điều kiện thực tế nhưng phải bảo đảm các nội dung chủ yếu quy định tại khoản 1 Điều 21 của Bộ luật Lao động;
+d) Trong quá trình thực hiện hợp đồng lao động, mỗi bên có quyền đơn phương chấm dứt hợp đồng lao động mà không cần lý do nhưng phải báo trước ít nhất 15 ngày, trừ các trường hợp sau thì không phải báo trước:
+d1) Người lao động đơn phương chấm dứt hợp đồng lao động vì các lý do: Không được bố t",blld-2019-p04-fixed-005-e52189b1,"a thuận nội dung thử việc ghi trong hợp đồng lao động mà thử việc không đạt yêu cầu hoặc một bên hủy bỏ thỏa thuận thử việc.
+Điều 35. Quyền đơn phương chấm dứt hợp đồng lao động của người lao động
+1. Người lao động có quyền đơn phương chấm dứt hợp đồng lao động nhưng phải báo trước cho người sử dụng lao động như sau:
+a) Ít nhất 45 ngày nếu làm việc theo hợp đồng lao động không xác định thời hạn;
+b) Ít nhất 30 ngày nếu làm việc theo hợp đồng lao động xác định thời hạn có thời hạn từ 12 tháng đến",1,"Top 1 và Top 2 nêu đúng mốc báo trước 15 ngày và câu dẫn điểm d, nhưng đoạn liệt kê chi tiết các ngoại lệ ở điểm d1, d2 bị cắt mất."
+A,q24,dien_dat_lai,"Trừ trường hợp đặc biệt quy định tại Điều 108 của Bộ luật Lao động, khi tổ chức làm thêm giờ người sử dụng lao động phải được người lao động đồng ý về những nội dung cụ thể nào?","Phải được sự đồng ý của người lao động tham gia làm thêm về 3 nội dung: thời gian làm thêm, địa điểm làm thêm và công việc làm thêm.",nd-145-2020,12,"1. Trừ các trường hợp quy định tại Điều 108 của Bộ luật Lao động, các trường hợp khác khi tổ chức làm thêm giờ, người sử dụng lao động phải được sự đồng ý của người lao động tham gia làm thêm về các nội dung sau đây:
+a) Thời gian làm thêm;
+b) Địa điểm làm thêm;
+c) Công việc làm thêm.",False,True,blld-2019-p11-fixed-007-496f97c4,"u 108. Làm thêm giờ trong trường hợp đặc biệt
+Người sử dụng lao động có quyền yêu cầu người lao động làm thêm giờ vào bất kỳ ngày nào mà không bị giới hạn về số giờ làm thêm theo quy định tại Điều 107 của Bộ luật này và người lao động không được từ chối trong trường hợp sau đây:
+1. Thực hiện lệnh động viên, huy động bảo đảm nhiệm vụ quốc phòng, an ninh theo quy định của pháp luật;
+2. Thực hiện các công việc nhằm bảo vệ tính mạng con người, tài sản của cơ quan, tổ chức, cá nhân trong phòng ngừa,",nd-145-2020-p12-fixed-004-9ff42c0c,"giờ đó được hưởng nguyên lương theo quy định của pháp luật về nghĩa vụ quân sự.
+Sự đồng ý của người lao động khi làm thêm giờ
+1. Trừ các trường hợp quy định tại Điều 108 của Bộ luật Lao động, các trường hợp khác khi tổ chức làm thêm giờ, người sử dụng lao động phải được sự đồng ý của người lao động tham gia làm thêm về các nội dung sau đây:
+a) Thời gian làm thêm;
+b) Địa điểm làm thêm;
+c) Công việc làm thêm.
+2. Trường hợp sự đồng ý của người lao động được ký thành văn bản riêng thì tham khảo Mẫu",nd-145-2020-p12-fixed-007-d28950d9,"c tuân thủ quy định tại điểm b, điểm c khoản 2 Điều 107 của Bộ luật Lao động.
+Các trường hợp được tổ chức làm thêm từ trên 200 giờ đến 300 giờ trong một năm
+Ngoài các trường hợp quy định tại các điểm a, điểm b, điểm c, điểm d khoản 3 Điều 107 của Bộ luật Lao động, các trường hợp sau đây được tổ chức làm thêm từ trên 200 giờ đến 300 giờ trong năm:
+1. Các trường hợp phải giải quyết công việc cấp bách, không thể trì hoãn phát sinh từ các yếu tố khách quan liên quan trực tiếp đến hoạt động công vụ t",2,Top 2 chứa nguyên văn khoản 1 nêu đủ 3 nội dung cần người lao động đồng ý và Top 1 bổ sung chi tiết ngoại lệ Điều 108.
+B,q19,dieu_kien_ngoai_le,Khi hợp đồng lao động chấm dứt thì mức trợ cấp thôi việc mỗi năm làm việc là bao nhiêu và những trường hợp nào không được nhận trợ cấp thôi việc?,Mỗi năm làm việc được trợ cấp một nửa tháng tiền lương (đối với người đã làm việc thường xuyên từ đủ 12 tháng trở lên); trừ trường hợp đủ điều kiện hưởng lương hưu và trường hợp tự ý bỏ việc không có lý do chính đáng từ 05 ngày làm việc liên tục trở lên.,blld-2019,4,"mỗi năm làm việc được trợ cấp một nửa tháng tiền lương, trừ trường hợp đủ điều kiện hưởng lương hưu theo quy định của pháp luật về bảo hiểm xã hội và trường hợp quy định tại điểm e khoản 1 Điều 36 của Bộ luật này.",True,True,blld-2019-p04-para-025-5268877c,"Điều 46. Trợ cấp thôi việc
+1. Khi hợp đồng lao động chấm dứt theo quy định tại các khoản 1, 2, 3, 4, 6, 7, 9 và 10 Điều 34 của Bộ luật này thì người sử dụng lao động có trách nhiệm trả trợ cấp thôi việc cho người lao động đã làm việc thường xuyên cho mình từ đủ 12 tháng trở lên, mỗi năm làm việc được trợ cấp một nửa tháng tiền lương, trừ trường hợp đủ điều kiện hưởng lương hưu theo quy định của pháp luật về bảo hiểm xã hội và trường hợp quy định tại điểm e khoản 1 Điều 36 của Bộ luật này.",nd-145-2020-p03-para-003-1b2e4fa3,"Chương III - HỢP ĐỒNG LAO ĐỘNG
+1. Người sử dụng lao động có trách nhiệm chi trả trợ cấp thôi việc theo quy định tại Điều 46 của Bộ luật Lao động đối với người lao động đã làm việc thường xuyên cho mình từ đủ 12 tháng trở lên khi hợp đồng lao động chấm dứt theo quy định tại các khoản 1, 2, 3, 4, 6, 7, 9 và 10 Điều 34 của Bộ luật Lao động, trừ các trường hợp sau:
+a) Người lao động đủ điều kiện hưởng lương hưu theo quy định tại Điều 169 của Bộ luật Lao động và pháp luật về bảo hiểm xã hội;
+b) Người lao động tự ý bỏ việc mà không có lý do chính đáng từ 05 ngày làm việc liên tục trở lên quy định tại điểm e khoản 1 Điều 36 của Bộ luật Lao động. Trường hợp được coi là có lý do chính đáng theo quy định tại khoản 4 Điều 125 của Bộ luật Lao động.",nd-145-2020-p03-para-016-098989fc,"Chương III - HỢP ĐỒNG LAO ĐỘNG
+c3) Người sử dụng lao động có trách nhiệm chi trả trợ cấp thôi việc đối với cả thời gian người lao động làm việc tại khu vực nhà nước mà được tuyển dụng lần cuối trước ngày 01 tháng 01 năm 1995 vào doanh nghiệp trước khi chia, tách, hợp nhất, sáp nhập; bán, cho thuê, chuyển đổi loại hình doanh nghiệp; chuyển nhượng quyền sở hữu, quyền sử dụng tài sản theo quy định tại điểm a khoản này.
+5. Tiền lương để tính trợ cấp thôi việc, trợ cấp mất việc làm được quy định như sau:
+a) Tiền lương để tính trợ cấp thôi việc, trợ cấp mất việc làm là tiền lương bình quân của 06 tháng liền kề theo hợp đồng lao động trước khi người lao động thôi việc, mất việc làm.",2,Top 1 nêu đủ mức trợ cấp tại Điều 46 và Top 2 giải thích trọn vẹn cả hai trường hợp ngoại lệ không được hưởng trợ cấp.
+B,q20,truc_tiep,Người lao động làm việc từ 06 giờ trở lên trong một ngày hoặc làm việc vào ban đêm thì được nghỉ giữa giờ liên tục tối thiểu bao nhiêu phút?,Nghỉ giữa giờ ít nhất 30 phút liên tục; nếu làm việc ban đêm thì được nghỉ giữa giờ ít nhất 45 phút liên tục.,blld-2019,12,"1. Người lao động làm việc theo thời giờ làm việc quy định tại Điều 105 của Bộ luật này từ 06 giờ trở lên trong một ngày thì được nghỉ giữa giờ ít nhất 30 phút liên tục, làm việc ban đêm thì được nghỉ giữa giờ ít nhất 45 phút liên tục.",True,True,blld-2019-p12-para-001-67acef44,"Chương VII - THỜI GIỜ LÀM VIỆC, THỜI GIỜ NGHỈ NGƠI
+Mục 2
+THỜI GIỜ NGHỈ NGƠI
+Điều 109. Nghỉ trong giờ làm việc
+1. Người lao động làm việc theo thời giờ làm việc quy định tại Điều 105 của Bộ luật này từ 06 giờ trở lên trong một ngày thì được nghỉ giữa giờ ít nhất 30 phút liên tục, làm việc ban đêm thì được nghỉ giữa giờ ít nhất 45 phút liên tục.
+Trường hợp người lao động làm việc theo ca liên tục từ 06 giờ trở lên thì thời gian nghỉ giữa giờ được tính vào giờ làm việc.
+2. Ngoài thời gian nghỉ quy định tại khoản 1 Điều này, người sử dụng lao động bố trí cho người lao động các đợt nghỉ giải lao và ghi vào nội quy lao động.",nd-145-2020-p12-para-008-69f127b7,"Chương VII
+Nghỉ trong giờ làm việc
+1. Thời gian nghỉ giữa giờ ít nhất 45 phút liên tục theo quy định tại khoản 1 Điều 109 của Bộ luật Lao động được áp dụng đối với người lao động làm việc từ 06 giờ trở lên trong một ngày, trong đó có ít nhất 03 giờ làm việc trong khung giờ làm việc ban đêm quy định tại Điều 106 của Bộ luật Lao động.
+2. Thời gian nghỉ giữa giờ được tính vào giờ làm việc đối với trường hợp làm việc theo ca liên tục quy định tại khoản 3 Điều 63 Nghị định này ít nhất 30 phút, riêng trường hợp làm việc ban đêm thì được tính ít nhất 45 phút.
+3. Người sử dụng lao động quyết định thời điểm nghỉ trong giờ làm việc, nhưng không được bố trí thời gian nghỉ này vào thời điểm bắt đầu hoặc kết thúc ca làm việc.",nd-145-2020-p18-para-011-1f398618,"Chương X
+3. Thời giờ làm việc, thời giờ nghỉ ngơi thực hiện theo quy định tại Chương VII của Bộ luật Lao động và Chương VII Nghị định này, trong đó thời gian nghỉ ngơi trong ngày làm việc bình thường, ngày nghỉ hằng tuần được thực hiện như sau:
+a) Vào ngày làm việc bình thường, ngoài thời giờ làm việc thỏa thuận trong hợp đồng lao động theo quy định, người sử dụng lao động phải bảo đảm, tạo điều kiện cho người lao động được nghỉ ít nhất 8 giờ, trong đó có 6 giờ liên tục trong 24 giờ liên tục;
+b) Người lao động được nghỉ hằng tuần theo quy định tại Điều 111 của Bộ luật Lao động, trường hợp người sử dụng lao động không thể bố trí nghỉ hằng tuần thì phải bảo đảm cho người lao động được nghỉ tính bình quân 01 tháng ít nhất 04 ngày.",2,Top 1 giữ nguyên vẹn toàn bộ Điều 109 Bộ luật Lao động với đầy đủ số phút nghỉ và điều kiện áp dụng.
+B,q21,metadata_filter,"Khi sử dụng người lao động cao tuổi đang hưởng lương hưu theo hợp đồng lao động mới, quyền lợi của người lao động và điều kiện giao kết hợp đồng xác định thời hạn được quy định ra sao?","Hai bên có thể thỏa thuận giao kết nhiều lần hợp đồng lao động xác định thời hạn; ngoài quyền lợi đang hưởng theo chế độ hưu trí, người lao động cao tuổi được hưởng tiền lương và các quyền lợi khác theo quy định của pháp luật, hợp đồng lao động.",blld-2019,17,"1. Khi sử dụng người lao động cao tuổi, hai bên có thể thỏa thuận giao kết nhiều lần hợp đồng lao động xác định thời hạn.",True,True,blld-2019-p17-para-002-14e93d30,"Điều 149. Sử dụng người lao động cao tuổi
+1. Khi sử dụng người lao động cao tuổi, hai bên có thể thỏa thuận giao kết nhiều lần hợp đồng lao động xác định thời hạn.
+2. Khi người lao động cao tuổi đang hưởng lương hưu theo quy định của Luật Bảo hiểm xã hội mà làm việc theo hợp đồng lao động mới thì ngoài quyền lợi đang hưởng theo chế độ hưu trí, người lao động cao tuổi được hưởng tiền lương và các quyền lợi khác theo quy định của pháp luật, hợp đồng lao động.
+3. Không được sử dụng người lao động cao tuổi làm nghề, công việc nặng nhọc, độc hại, nguy hiểm hoặc đặc biệt nặng nhọc, độc hại, nguy hiểm có ảnh hưởng xấu tới sức khỏe người lao động cao tuổi, trừ trường hợp bảo đảm các điều kiện làm việc an toàn.",blld-2019-p17-para-001-03334fb5,"Chương XI - NHỮNG QUY ĐỊNH RIÊNG ĐỐI VỚI LAO ĐỘNG
+Mục 2
+NGƯỜI LAO ĐỘNG CAO TUỔI
+Điều 148. Người lao động cao tuổi
+1. Người lao động cao tuổi là người tiếp tục lao động sau độ tuổi theo quy định tại khoản 2 Điều 169 của Bộ luật này.
+2. Người lao động cao tuổi có quyền thỏa thuận với người sử dụng lao động về việc rút ngắn thời giờ làm việc hằng ngày hoặc áp dụng chế độ làm việc không trọn thời gian.
+3. Nhà nước khuyến khích sử dụng người lao động cao tuổi làm việc phù hợp với sức khỏe để bảo đảm quyền lao động và sử dụng hiệu quả nguồn nhân lực.",blld-2019-p28-para-009-1a07f0ef,"Điều 219. Sửa đổi, bổ sung một số điều của các luật có liên quan đến lao động
+b) Có đủ 15 năm trở lên làm nghề, công việc đặc biệt nặng nhọc, độc hại, nguy hiểm thuộc danh mục do Bộ Lao động - Thương binh và Xã hội ban hành.”;
+c) Sửa đổi, bổ sung khoản 1 Điều 73 như sau:
+“1. Người lao động hưởng lương hưu khi có đủ các điều kiện sau đây:
+a) Đủ tuổi nghỉ hưu theo quy định tại khoản 2 Điều 169 của Bộ luật Lao động;
+b) Đủ 20 năm đóng bảo hiểm xã hội trở lên.”.
+2. Sửa đổi, bổ sung Điều 32 của Bộ luật Tố tụng dân sự số 92/2015/QH13 như sau:
+a) Sửa đổi, bổ sung tên điều, khoản 1; bổ sung các khoản 1a, 1b và 1c vào sau khoản 1 như sau:
+“Điều 32. Những tranh chấp về lao động và tranh chấp liên quan đến lao động thuộc thẩm quyền giải quyết của Tòa án",2,"Top 1 chứa trọn vẹn Điều 149 trong một đoạn duy nhất, nêu đủ quyền giao kết hợp đồng nhiều lần và quyền lợi ngoài lương hưu."
+B,q22,metadata_filter,"Người sử dụng lao động sử dụng từ bao nhiêu lao động nữ trở lên thì bắt buộc phải lắp đặt phòng vắt, trữ sữa mẹ tại nơi làm việc?","Sử dụng từ 1.000 người lao động nữ trở lên thì phải lắp đặt phòng vắt, trữ sữa mẹ tại nơi làm việc.",nd-145-2020,15,"Trường hợp người sử dụng lao động sử dụng từ 1.000 người lao động nữ trở lên thì phải lắp đặt phòng vắt, trữ sữa mẹ tại nơi làm việc.",True,True,nd-145-2020-p15-para-008-d402490a,"Chương IX - LAO ĐỘNG NỮ VÀ BẢO ĐẢM BÌNH ĐẲNG GIỚI
+c) Trường hợp lao động nữ không có nhu cầu nghỉ và được người sử dụng lao động đồng ý để người lao động làm việc thì ngoài tiền lương được hưởng theo quy định tại điểm a khoản này, người lao động được trả thêm tiền lương theo công việc mà người lao động đã làm trong thời gian được nghỉ.
+5. Khuyến khích người sử dụng lao động lắp đặt phòng vắt, trữ sữa mẹ phù hợp với điều kiện thực tế tại nơi làm việc, nhu cầu của lao động nữ và khả năng của người sử dụng lao động. Trường hợp người sử dụng lao động sử dụng từ 1.000 người lao động nữ trở lên thì phải lắp đặt phòng vắt, trữ sữa mẹ tại nơi làm việc.",nd-145-2020-p14-para-002-0f3d4fb0,"Chương IX
+1. Khu công nghiệp, cụm công nghiệp, khu chế xuất, khu kinh tế, khu công nghệ cao (gọi tắt là khu công nghiệp) có từ 5.000 người lao động trở lên đang làm việc trong các doanh nghiệp và có tham gia đóng bảo hiểm xã hội trên địa bàn khu công nghiệp.
+2. Xã, phường, thị trấn có từ 3.000 người lao động trở lên đăng ký thường trú hoặc đăng ký tạm trú tại xã, phường, thị trấn đó.
+Phòng vắt, trữ sữa mẹ
+Phòng vắt, trữ sữa mẹ là một không gian riêng tư, không phải buồng tắm hay buồng vệ sinh; có nguồn điện, nước, bàn, ghế, tủ lạnh bảo đảm vệ sinh, quạt hoặc điều hòa; bố trí ở vị trí thuận tiện sử dụng, được che chắn khỏi sự xâm phạm, tầm nhìn của đồng nghiệp và công cộng để lao động nữ có thể cho con bú hoặc vắt, trữ sữa.
+Nhà trẻ, lớp mẫu giáo",nd-145-2020-p15-para-009-86b2204b,"Chương IX - LAO ĐỘNG NỮ VÀ BẢO ĐẢM BÌNH ĐẲNG GIỚI
+6. Khuyến khích người sử dụng lao động tạo điều kiện để lao động nữ nuôi con từ 12 tháng tuổi trở lên vắt, trữ sữa mẹ tại nơi làm việc. Thời gian nghỉ để vắt, trữ sữa mẹ do người lao động thỏa thuận với người sử dụng lao động.
+Tổ chức nhà trẻ, lớp mẫu giáo ở nơi có nhiều lao động
+1. Ủy ban nhân dân cấp tỉnh có trách nhiệm:
+a) Bố trí dành quỹ đất xây dựng nhà trẻ, lớp mẫu giáo ở nơi có nhiều lao động trong kế hoạch sử dụng đất của địa phương;
+b) Xây dựng nhà trẻ, lớp mẫu giáo bảo đảm đáp ứng nhu cầu của người lao động;
+c) Đầu tư cơ sở hạ tầng, xây dựng một phần hoặc toàn bộ công trình hoặc sử dụng quỹ nhà, cơ sở hạ tầng hiện có cho các tổ chức, cá nhân thuê để thành lập nhà trẻ, lớp mẫu giáo phục vụ nhu cầu của người lao động;",2,Top 1 nêu đầy đủ khoản 5 quy định ngưỡng 1.000 lao động nữ trở lên cùng nguồn Chương IX trang 15.
+B,q23,dieu_kien_ngoai_le,"Đối với lao động là người giúp việc gia đình, trong quá trình thực hiện hợp đồng lao động mỗi bên có quyền đơn phương chấm dứt hợp đồng mà không cần lý do nhưng phải báo trước ít nhất bao nhiêu ngày?","Phải báo trước ít nhất 15 ngày (trừ một số trường hợp đặc biệt như không được bố trí đúng công việc, không được trả đủ lương, bị ngược đãi, quấy rối tình dục... thì không phải báo trước).",nd-145-2020,18,"d) Trong quá trình thực hiện hợp đồng lao động, mỗi bên có quyền đơn phương chấm dứt hợp đồng lao động mà không cần lý do nhưng phải báo trước ít nhất 15 ngày, trừ các trường hợp sau thì không phải báo trước:",False,True,blld-2019-p18-para-005-850fbbeb,"Điều 162. Hợp đồng lao động đối với lao động là người giúp việc gia đình
+1. Người sử dụng lao động phải giao kết hợp đồng lao động bằng văn bản với lao động là người giúp việc gia đình.
+2. Thời hạn của hợp đồng lao động đối với lao động là người giúp việc gia đình do hai bên thỏa thuận. Một bên có quyền đơn phương chấm dứt hợp đồng lao động bất kỳ khi nào nhưng phải báo trước ít nhất 15 ngày.
+3. Hai bên thỏa thuận trong hợp đồng lao động về hình thức trả lương, kỳ hạn trả lương, thời giờ làm việc hằng ngày, chỗ ở.",nd-145-2020-p18-para-004-28588a83,"Chương X
+c) Nội dung hợp đồng lao động theo quy định tại khoản 1 Điều 21 của Bộ luật Lao động. Căn cứ Mẫu số 01/PLV Phụ lục V ban hành kèm theo Nghị định này, người sử dụng lao động và người lao động có trách nhiệm thỏa thuận cụ thể các quyền, nghĩa vụ và lợi ích của mỗi bên trong hợp đồng lao động để thực hiện phù hợp với điều kiện thực tế nhưng phải bảo đảm các nội dung chủ yếu quy định tại khoản 1 Điều 21 của Bộ luật Lao động;
+d) Trong quá trình thực hiện hợp đồng lao động, mỗi bên có quyền đơn phương chấm dứt hợp đồng lao động mà không cần lý do nhưng phải báo trước ít nhất 15 ngày, trừ các trường hợp sau thì không phải báo trước:",blld-2019-p04-para-004-fa50fd6f,"Điều 35. Quyền đơn phương chấm dứt hợp đồng lao động của người lao động
+1. Người lao động có quyền đơn phương chấm dứt hợp đồng lao động nhưng phải báo trước cho người sử dụng lao động như sau:
+a) Ít nhất 45 ngày nếu làm việc theo hợp đồng lao động không xác định thời hạn;
+b) Ít nhất 30 ngày nếu làm việc theo hợp đồng lao động xác định thời hạn có thời hạn từ 12 tháng đến 36 tháng;
+c) Ít nhất 03 ngày làm việc nếu làm việc theo hợp đồng lao động xác định thời hạn có thời hạn dưới 12 tháng;
+d) Đối với một số ngành, nghề, công việc đặc thù thì thời hạn báo trước được thực hiện theo quy định của Chính phủ.
+2. Người lao động có quyền đơn phương chấm dứt hợp đồng lao động không cần báo trước trong trường hợp sau đây:",1,"Top 1 và Top 2 có đủ quy định báo trước 15 ngày và câu dẫn điểm d, nhưng thiếu đoạn tiếp theo liệt kê cụ thể các trường hợp không phải báo trước."
+B,q24,dien_dat_lai,"Trừ trường hợp đặc biệt quy định tại Điều 108 của Bộ luật Lao động, khi tổ chức làm thêm giờ người sử dụng lao động phải được người lao động đồng ý về những nội dung cụ thể nào?","Phải được sự đồng ý của người lao động tham gia làm thêm về 3 nội dung: thời gian làm thêm, địa điểm làm thêm và công việc làm thêm.",nd-145-2020,12,"1. Trừ các trường hợp quy định tại Điều 108 của Bộ luật Lao động, các trường hợp khác khi tổ chức làm thêm giờ, người sử dụng lao động phải được sự đồng ý của người lao động tham gia làm thêm về các nội dung sau đây:
+a) Thời gian làm thêm;
+b) Địa điểm làm thêm;
+c) Công việc làm thêm.",False,True,blld-2019-p11-para-005-4cde8a5f,"Điều 108. Làm thêm giờ trong trường hợp đặc biệt
+Người sử dụng lao động có quyền yêu cầu người lao động làm thêm giờ vào bất kỳ ngày nào mà không bị giới hạn về số giờ làm thêm theo quy định tại Điều 107 của Bộ luật này và người lao động không được từ chối trong trường hợp sau đây:
+1. Thực hiện lệnh động viên, huy động bảo đảm nhiệm vụ quốc phòng, an ninh theo quy định của pháp luật;
+2. Thực hiện các công việc nhằm bảo vệ tính mạng con người, tài sản của cơ quan, tổ chức, cá nhân trong phòng ngừa, khắc phục hậu quả thiên tai, hỏa hoạn, dịch bệnh nguy hiểm và thảm họa, trừ trường hợp có nguy cơ ảnh hưởng đến tính mạng, sức khỏe của người lao động theo quy định của pháp luật về an toàn, vệ sinh lao động.",nd-145-2020-p12-para-003-a81d81dc,"Chương VII
+1. Trừ các trường hợp quy định tại Điều 108 của Bộ luật Lao động, các trường hợp khác khi tổ chức làm thêm giờ, người sử dụng lao động phải được sự đồng ý của người lao động tham gia làm thêm về các nội dung sau đây:
+a) Thời gian làm thêm;
+b) Địa điểm làm thêm;
+c) Công việc làm thêm.
+2. Trường hợp sự đồng ý của người lao động được ký thành văn bản riêng thì tham khảo Mẫu số 01/PLIV Phụ lục IV ban hành kèm theo Nghị định này.
+Giới hạn số giờ làm thêm
+1. Tổng số giờ làm thêm không quá 50% số giờ làm việc bình thường trong 01 ngày khi làm thêm vào ngày làm việc bình thường, trừ trường hợp quy định tại khoản 2, khoản 3 Điều này.",blld-2019-p11-para-004-d16151e4,"Điều 106. Giờ làm việc ban đêm
+d) Trường hợp phải giải quyết công việc cấp bách, không thể trì hoãn do tính chất thời vụ, thời điểm của nguyên liệu, sản phẩm hoặc để giải quyết công việc phát sinh do yếu tố khách quan không dự liệu trước, do hậu quả thời tiết, thiên tai, hỏa hoạn, địch họa, thiếu điện, thiếu nguyên liệu, sự cố kỹ thuật của dây chuyền sản xuất;
+đ) Trường hợp khác do Chính phủ quy định.
+4. Khi tổ chức làm thêm giờ theo quy định tại khoản 3 Điều này, người sử dụng lao động phải thông báo bằng văn bản cho cơ quan chuyên môn về lao động thuộc Ủy ban nhân dân cấp tỉnh.
+5. Chính phủ quy định chi tiết Điều này.",2,"Top 2 giữ trọn vẹn khoản 1 với đủ 3 nội dung thời gian, địa điểm, công việc làm thêm cùng nguồn trang 12."
+C,q19,dieu_kien_ngoai_le,Khi hợp đồng lao động chấm dứt thì mức trợ cấp thôi việc mỗi năm làm việc là bao nhiêu và những trường hợp nào không được nhận trợ cấp thôi việc?,Mỗi năm làm việc được trợ cấp một nửa tháng tiền lương (đối với người đã làm việc thường xuyên từ đủ 12 tháng trở lên); trừ trường hợp đủ điều kiện hưởng lương hưu và trường hợp tự ý bỏ việc không có lý do chính đáng từ 05 ngày làm việc liên tục trở lên.,blld-2019,4,"mỗi năm làm việc được trợ cấp một nửa tháng tiền lương, trừ trường hợp đủ điều kiện hưởng lương hưu theo quy định của pháp luật về bảo hiểm xã hội và trường hợp quy định tại điểm e khoản 1 Điều 36 của Bộ luật này.",True,True,blld-2019-p04-para-025-5268877c,"Điều 46. Trợ cấp thôi việc
+1. Khi hợp đồng lao động chấm dứt theo quy định tại các khoản 1, 2, 3, 4, 6, 7, 9 và 10 Điều 34 của Bộ luật này thì người sử dụng lao động có trách nhiệm trả trợ cấp thôi việc cho người lao động đã làm việc thường xuyên cho mình từ đủ 12 tháng trở lên, mỗi năm làm việc được trợ cấp một nửa tháng tiền lương, trừ trường hợp đủ điều kiện hưởng lương hưu theo quy định của pháp luật về bảo hiểm xã hội và trường hợp quy định tại điểm e khoản 1 Điều 36 của Bộ luật này.",nd-145-2020-p03-para-003-1b2e4fa3,"Chương III - HỢP ĐỒNG LAO ĐỘNG
+1. Người sử dụng lao động có trách nhiệm chi trả trợ cấp thôi việc theo quy định tại Điều 46 của Bộ luật Lao động đối với người lao động đã làm việc thường xuyên cho mình từ đủ 12 tháng trở lên khi hợp đồng lao động chấm dứt theo quy định tại các khoản 1, 2, 3, 4, 6, 7, 9 và 10 Điều 34 của Bộ luật Lao động, trừ các trường hợp sau:
+a) Người lao động đủ điều kiện hưởng lương hưu theo quy định tại Điều 169 của Bộ luật Lao động và pháp luật về bảo hiểm xã hội;
+b) Người lao động tự ý bỏ việc mà không có lý do chính đáng từ 05 ngày làm việc liên tục trở lên quy định tại điểm e khoản 1 Điều 36 của Bộ luật Lao động. Trường hợp được coi là có lý do chính đáng theo quy định tại khoản 4 Điều 125 của Bộ luật Lao động.",nd-145-2020-p03-para-016-098989fc,"Chương III - HỢP ĐỒNG LAO ĐỘNG
+c3) Người sử dụng lao động có trách nhiệm chi trả trợ cấp thôi việc đối với cả thời gian người lao động làm việc tại khu vực nhà nước mà được tuyển dụng lần cuối trước ngày 01 tháng 01 năm 1995 vào doanh nghiệp trước khi chia, tách, hợp nhất, sáp nhập; bán, cho thuê, chuyển đổi loại hình doanh nghiệp; chuyển nhượng quyền sở hữu, quyền sử dụng tài sản theo quy định tại điểm a khoản này.
+5. Tiền lương để tính trợ cấp thôi việc, trợ cấp mất việc làm được quy định như sau:
+a) Tiền lương để tính trợ cấp thôi việc, trợ cấp mất việc làm là tiền lương bình quân của 06 tháng liền kề theo hợp đồng lao động trước khi người lao động thôi việc, mất việc làm.",2,Top 1 và Top 2 cung cấp đầy đủ mức hưởng cùng hai trường hợp ngoại lệ khớp với đáp án kỳ vọng.
+C,q20,truc_tiep,Người lao động làm việc từ 06 giờ trở lên trong một ngày hoặc làm việc vào ban đêm thì được nghỉ giữa giờ liên tục tối thiểu bao nhiêu phút?,Nghỉ giữa giờ ít nhất 30 phút liên tục; nếu làm việc ban đêm thì được nghỉ giữa giờ ít nhất 45 phút liên tục.,blld-2019,12,"1. Người lao động làm việc theo thời giờ làm việc quy định tại Điều 105 của Bộ luật này từ 06 giờ trở lên trong một ngày thì được nghỉ giữa giờ ít nhất 30 phút liên tục, làm việc ban đêm thì được nghỉ giữa giờ ít nhất 45 phút liên tục.",True,True,blld-2019-p12-para-001-67acef44,"Chương VII - THỜI GIỜ LÀM VIỆC, THỜI GIỜ NGHỈ NGƠI
+Mục 2
+THỜI GIỜ NGHỈ NGƠI
+Điều 109. Nghỉ trong giờ làm việc
+1. Người lao động làm việc theo thời giờ làm việc quy định tại Điều 105 của Bộ luật này từ 06 giờ trở lên trong một ngày thì được nghỉ giữa giờ ít nhất 30 phút liên tục, làm việc ban đêm thì được nghỉ giữa giờ ít nhất 45 phút liên tục.
+Trường hợp người lao động làm việc theo ca liên tục từ 06 giờ trở lên thì thời gian nghỉ giữa giờ được tính vào giờ làm việc.
+2. Ngoài thời gian nghỉ quy định tại khoản 1 Điều này, người sử dụng lao động bố trí cho người lao động các đợt nghỉ giải lao và ghi vào nội quy lao động.",nd-145-2020-p12-para-008-69f127b7,"Chương VII
+Nghỉ trong giờ làm việc
+1. Thời gian nghỉ giữa giờ ít nhất 45 phút liên tục theo quy định tại khoản 1 Điều 109 của Bộ luật Lao động được áp dụng đối với người lao động làm việc từ 06 giờ trở lên trong một ngày, trong đó có ít nhất 03 giờ làm việc trong khung giờ làm việc ban đêm quy định tại Điều 106 của Bộ luật Lao động.
+2. Thời gian nghỉ giữa giờ được tính vào giờ làm việc đối với trường hợp làm việc theo ca liên tục quy định tại khoản 3 Điều 63 Nghị định này ít nhất 30 phút, riêng trường hợp làm việc ban đêm thì được tính ít nhất 45 phút.
+3. Người sử dụng lao động quyết định thời điểm nghỉ trong giờ làm việc, nhưng không được bố trí thời gian nghỉ này vào thời điểm bắt đầu hoặc kết thúc ca làm việc.",nd-145-2020-p18-para-011-1f398618,"Chương X
+3. Thời giờ làm việc, thời giờ nghỉ ngơi thực hiện theo quy định tại Chương VII của Bộ luật Lao động và Chương VII Nghị định này, trong đó thời gian nghỉ ngơi trong ngày làm việc bình thường, ngày nghỉ hằng tuần được thực hiện như sau:
+a) Vào ngày làm việc bình thường, ngoài thời giờ làm việc thỏa thuận trong hợp đồng lao động theo quy định, người sử dụng lao động phải bảo đảm, tạo điều kiện cho người lao động được nghỉ ít nhất 8 giờ, trong đó có 6 giờ liên tục trong 24 giờ liên tục;
+b) Người lao động được nghỉ hằng tuần theo quy định tại Điều 111 của Bộ luật Lao động, trường hợp người sử dụng lao động không thể bố trí nghỉ hằng tuần thì phải bảo đảm cho người lao động được nghỉ tính bình quân 01 tháng ít nhất 04 ngày.",2,Top 1 và Top 2 cung cấp đầy đủ bằng chứng từ Điều 109 và Nghị định 145/2020 khớp hoàn toàn với đáp án kỳ vọng.
+C,q21,metadata_filter,"Khi sử dụng người lao động cao tuổi đang hưởng lương hưu theo hợp đồng lao động mới, quyền lợi của người lao động và điều kiện giao kết hợp đồng xác định thời hạn được quy định ra sao?","Hai bên có thể thỏa thuận giao kết nhiều lần hợp đồng lao động xác định thời hạn; ngoài quyền lợi đang hưởng theo chế độ hưu trí, người lao động cao tuổi được hưởng tiền lương và các quyền lợi khác theo quy định của pháp luật, hợp đồng lao động.",blld-2019,17,"1. Khi sử dụng người lao động cao tuổi, hai bên có thể thỏa thuận giao kết nhiều lần hợp đồng lao động xác định thời hạn.",True,True,blld-2019-p17-para-002-14e93d30,"Điều 149. Sử dụng người lao động cao tuổi
+1. Khi sử dụng người lao động cao tuổi, hai bên có thể thỏa thuận giao kết nhiều lần hợp đồng lao động xác định thời hạn.
+2. Khi người lao động cao tuổi đang hưởng lương hưu theo quy định của Luật Bảo hiểm xã hội mà làm việc theo hợp đồng lao động mới thì ngoài quyền lợi đang hưởng theo chế độ hưu trí, người lao động cao tuổi được hưởng tiền lương và các quyền lợi khác theo quy định của pháp luật, hợp đồng lao động.
+3. Không được sử dụng người lao động cao tuổi làm nghề, công việc nặng nhọc, độc hại, nguy hiểm hoặc đặc biệt nặng nhọc, độc hại, nguy hiểm có ảnh hưởng xấu tới sức khỏe người lao động cao tuổi, trừ trường hợp bảo đảm các điều kiện làm việc an toàn.",blld-2019-p17-para-001-03334fb5,"Chương XI - NHỮNG QUY ĐỊNH RIÊNG ĐỐI VỚI LAO ĐỘNG
+Mục 2
+NGƯỜI LAO ĐỘNG CAO TUỔI
+Điều 148. Người lao động cao tuổi
+1. Người lao động cao tuổi là người tiếp tục lao động sau độ tuổi theo quy định tại khoản 2 Điều 169 của Bộ luật này.
+2. Người lao động cao tuổi có quyền thỏa thuận với người sử dụng lao động về việc rút ngắn thời giờ làm việc hằng ngày hoặc áp dụng chế độ làm việc không trọn thời gian.
+3. Nhà nước khuyến khích sử dụng người lao động cao tuổi làm việc phù hợp với sức khỏe để bảo đảm quyền lao động và sử dụng hiệu quả nguồn nhân lực.",blld-2019-p28-para-009-1a07f0ef,"Điều 219. Sửa đổi, bổ sung một số điều của các luật có liên quan đến lao động
+b) Có đủ 15 năm trở lên làm nghề, công việc đặc biệt nặng nhọc, độc hại, nguy hiểm thuộc danh mục do Bộ Lao động - Thương binh và Xã hội ban hành.”;
+c) Sửa đổi, bổ sung khoản 1 Điều 73 như sau:
+“1. Người lao động hưởng lương hưu khi có đủ các điều kiện sau đây:
+a) Đủ tuổi nghỉ hưu theo quy định tại khoản 2 Điều 169 của Bộ luật Lao động;
+b) Đủ 20 năm đóng bảo hiểm xã hội trở lên.”.
+2. Sửa đổi, bổ sung Điều 32 của Bộ luật Tố tụng dân sự số 92/2015/QH13 như sau:
+a) Sửa đổi, bổ sung tên điều, khoản 1; bổ sung các khoản 1a, 1b và 1c vào sau khoản 1 như sau:
+“Điều 32. Những tranh chấp về lao động và tranh chấp liên quan đến lao động thuộc thẩm quyền giải quyết của Tòa án",2,"Top 1 giữ nguyên vẹn Điều 149 Bộ luật Lao động, đáp ứng đầy đủ mọi ý của câu hỏi."
+C,q22,metadata_filter,"Người sử dụng lao động sử dụng từ bao nhiêu lao động nữ trở lên thì bắt buộc phải lắp đặt phòng vắt, trữ sữa mẹ tại nơi làm việc?","Sử dụng từ 1.000 người lao động nữ trở lên thì phải lắp đặt phòng vắt, trữ sữa mẹ tại nơi làm việc.",nd-145-2020,15,"Trường hợp người sử dụng lao động sử dụng từ 1.000 người lao động nữ trở lên thì phải lắp đặt phòng vắt, trữ sữa mẹ tại nơi làm việc.",True,True,nd-145-2020-p15-para-008-d402490a,"Chương IX - LAO ĐỘNG NỮ VÀ BẢO ĐẢM BÌNH ĐẲNG GIỚI
+c) Trường hợp lao động nữ không có nhu cầu nghỉ và được người sử dụng lao động đồng ý để người lao động làm việc thì ngoài tiền lương được hưởng theo quy định tại điểm a khoản này, người lao động được trả thêm tiền lương theo công việc mà người lao động đã làm trong thời gian được nghỉ.
+5. Khuyến khích người sử dụng lao động lắp đặt phòng vắt, trữ sữa mẹ phù hợp với điều kiện thực tế tại nơi làm việc, nhu cầu của lao động nữ và khả năng của người sử dụng lao động. Trường hợp người sử dụng lao động sử dụng từ 1.000 người lao động nữ trở lên thì phải lắp đặt phòng vắt, trữ sữa mẹ tại nơi làm việc.",nd-145-2020-p14-para-002-0f3d4fb0,"Chương IX
+1. Khu công nghiệp, cụm công nghiệp, khu chế xuất, khu kinh tế, khu công nghệ cao (gọi tắt là khu công nghiệp) có từ 5.000 người lao động trở lên đang làm việc trong các doanh nghiệp và có tham gia đóng bảo hiểm xã hội trên địa bàn khu công nghiệp.
+2. Xã, phường, thị trấn có từ 3.000 người lao động trở lên đăng ký thường trú hoặc đăng ký tạm trú tại xã, phường, thị trấn đó.
+Phòng vắt, trữ sữa mẹ
+Phòng vắt, trữ sữa mẹ là một không gian riêng tư, không phải buồng tắm hay buồng vệ sinh; có nguồn điện, nước, bàn, ghế, tủ lạnh bảo đảm vệ sinh, quạt hoặc điều hòa; bố trí ở vị trí thuận tiện sử dụng, được che chắn khỏi sự xâm phạm, tầm nhìn của đồng nghiệp và công cộng để lao động nữ có thể cho con bú hoặc vắt, trữ sữa.
+Nhà trẻ, lớp mẫu giáo",nd-145-2020-p15-para-009-86b2204b,"Chương IX - LAO ĐỘNG NỮ VÀ BẢO ĐẢM BÌNH ĐẲNG GIỚI
+6. Khuyến khích người sử dụng lao động tạo điều kiện để lao động nữ nuôi con từ 12 tháng tuổi trở lên vắt, trữ sữa mẹ tại nơi làm việc. Thời gian nghỉ để vắt, trữ sữa mẹ do người lao động thỏa thuận với người sử dụng lao động.
+Tổ chức nhà trẻ, lớp mẫu giáo ở nơi có nhiều lao động
+1. Ủy ban nhân dân cấp tỉnh có trách nhiệm:
+a) Bố trí dành quỹ đất xây dựng nhà trẻ, lớp mẫu giáo ở nơi có nhiều lao động trong kế hoạch sử dụng đất của địa phương;
+b) Xây dựng nhà trẻ, lớp mẫu giáo bảo đảm đáp ứng nhu cầu của người lao động;
+c) Đầu tư cơ sở hạ tầng, xây dựng một phần hoặc toàn bộ công trình hoặc sử dụng quỹ nhà, cơ sở hạ tầng hiện có cho các tổ chức, cá nhân thuê để thành lập nhà trẻ, lớp mẫu giáo phục vụ nhu cầu của người lao động;",2,Top 1 cung cấp chính xác điều kiện từ 1.000 lao động nữ trở lên khớp với Gold Evidence.
+C,q23,dieu_kien_ngoai_le,"Đối với lao động là người giúp việc gia đình, trong quá trình thực hiện hợp đồng lao động mỗi bên có quyền đơn phương chấm dứt hợp đồng mà không cần lý do nhưng phải báo trước ít nhất bao nhiêu ngày?","Phải báo trước ít nhất 15 ngày (trừ một số trường hợp đặc biệt như không được bố trí đúng công việc, không được trả đủ lương, bị ngược đãi, quấy rối tình dục... thì không phải báo trước).",nd-145-2020,18,"d) Trong quá trình thực hiện hợp đồng lao động, mỗi bên có quyền đơn phương chấm dứt hợp đồng lao động mà không cần lý do nhưng phải báo trước ít nhất 15 ngày, trừ các trường hợp sau thì không phải báo trước:",False,True,blld-2019-p18-para-005-850fbbeb,"Điều 162. Hợp đồng lao động đối với lao động là người giúp việc gia đình
+1. Người sử dụng lao động phải giao kết hợp đồng lao động bằng văn bản với lao động là người giúp việc gia đình.
+2. Thời hạn của hợp đồng lao động đối với lao động là người giúp việc gia đình do hai bên thỏa thuận. Một bên có quyền đơn phương chấm dứt hợp đồng lao động bất kỳ khi nào nhưng phải báo trước ít nhất 15 ngày.
+3. Hai bên thỏa thuận trong hợp đồng lao động về hình thức trả lương, kỳ hạn trả lương, thời giờ làm việc hằng ngày, chỗ ở.",nd-145-2020-p18-para-004-28588a83,"Chương X
+c) Nội dung hợp đồng lao động theo quy định tại khoản 1 Điều 21 của Bộ luật Lao động. Căn cứ Mẫu số 01/PLV Phụ lục V ban hành kèm theo Nghị định này, người sử dụng lao động và người lao động có trách nhiệm thỏa thuận cụ thể các quyền, nghĩa vụ và lợi ích của mỗi bên trong hợp đồng lao động để thực hiện phù hợp với điều kiện thực tế nhưng phải bảo đảm các nội dung chủ yếu quy định tại khoản 1 Điều 21 của Bộ luật Lao động;
+d) Trong quá trình thực hiện hợp đồng lao động, mỗi bên có quyền đơn phương chấm dứt hợp đồng lao động mà không cần lý do nhưng phải báo trước ít nhất 15 ngày, trừ các trường hợp sau thì không phải báo trước:",blld-2019-p04-para-004-fa50fd6f,"Điều 35. Quyền đơn phương chấm dứt hợp đồng lao động của người lao động
+1. Người lao động có quyền đơn phương chấm dứt hợp đồng lao động nhưng phải báo trước cho người sử dụng lao động như sau:
+a) Ít nhất 45 ngày nếu làm việc theo hợp đồng lao động không xác định thời hạn;
+b) Ít nhất 30 ngày nếu làm việc theo hợp đồng lao động xác định thời hạn có thời hạn từ 12 tháng đến 36 tháng;
+c) Ít nhất 03 ngày làm việc nếu làm việc theo hợp đồng lao động xác định thời hạn có thời hạn dưới 12 tháng;
+d) Đối với một số ngành, nghề, công việc đặc thù thì thời hạn báo trước được thực hiện theo quy định của Chính phủ.
+2. Người lao động có quyền đơn phương chấm dứt hợp đồng lao động không cần báo trước trong trường hợp sau đây:",1,"Top 1 và Top 2 nêu đúng thời hạn 15 ngày và câu dẫn ngoại lệ, nhưng chưa bao phủ nội dung chi tiết của các ngoại lệ phía sau."
+C,q24,dien_dat_lai,"Trừ trường hợp đặc biệt quy định tại Điều 108 của Bộ luật Lao động, khi tổ chức làm thêm giờ người sử dụng lao động phải được người lao động đồng ý về những nội dung cụ thể nào?","Phải được sự đồng ý của người lao động tham gia làm thêm về 3 nội dung: thời gian làm thêm, địa điểm làm thêm và công việc làm thêm.",nd-145-2020,12,"1. Trừ các trường hợp quy định tại Điều 108 của Bộ luật Lao động, các trường hợp khác khi tổ chức làm thêm giờ, người sử dụng lao động phải được sự đồng ý của người lao động tham gia làm thêm về các nội dung sau đây:
+a) Thời gian làm thêm;
+b) Địa điểm làm thêm;
+c) Công việc làm thêm.",False,True,blld-2019-p11-para-005-4cde8a5f,"Điều 108. Làm thêm giờ trong trường hợp đặc biệt
+Người sử dụng lao động có quyền yêu cầu người lao động làm thêm giờ vào bất kỳ ngày nào mà không bị giới hạn về số giờ làm thêm theo quy định tại Điều 107 của Bộ luật này và người lao động không được từ chối trong trường hợp sau đây:
+1. Thực hiện lệnh động viên, huy động bảo đảm nhiệm vụ quốc phòng, an ninh theo quy định của pháp luật;
+2. Thực hiện các công việc nhằm bảo vệ tính mạng con người, tài sản của cơ quan, tổ chức, cá nhân trong phòng ngừa, khắc phục hậu quả thiên tai, hỏa hoạn, dịch bệnh nguy hiểm và thảm họa, trừ trường hợp có nguy cơ ảnh hưởng đến tính mạng, sức khỏe của người lao động theo quy định của pháp luật về an toàn, vệ sinh lao động.",nd-145-2020-p12-para-003-a81d81dc,"Chương VII
+1. Trừ các trường hợp quy định tại Điều 108 của Bộ luật Lao động, các trường hợp khác khi tổ chức làm thêm giờ, người sử dụng lao động phải được sự đồng ý của người lao động tham gia làm thêm về các nội dung sau đây:
+a) Thời gian làm thêm;
+b) Địa điểm làm thêm;
+c) Công việc làm thêm.
+2. Trường hợp sự đồng ý của người lao động được ký thành văn bản riêng thì tham khảo Mẫu số 01/PLIV Phụ lục IV ban hành kèm theo Nghị định này.
+Giới hạn số giờ làm thêm
+1. Tổng số giờ làm thêm không quá 50% số giờ làm việc bình thường trong 01 ngày khi làm thêm vào ngày làm việc bình thường, trừ trường hợp quy định tại khoản 2, khoản 3 Điều này.",blld-2019-p11-para-004-d16151e4,"Điều 106. Giờ làm việc ban đêm
+d) Trường hợp phải giải quyết công việc cấp bách, không thể trì hoãn do tính chất thời vụ, thời điểm của nguyên liệu, sản phẩm hoặc để giải quyết công việc phát sinh do yếu tố khách quan không dự liệu trước, do hậu quả thời tiết, thiên tai, hỏa hoạn, địch họa, thiếu điện, thiếu nguyên liệu, sự cố kỹ thuật của dây chuyền sản xuất;
+đ) Trường hợp khác do Chính phủ quy định.
+4. Khi tổ chức làm thêm giờ theo quy định tại khoản 3 Điều này, người sử dụng lao động phải thông báo bằng văn bản cho cơ quan chuyên môn về lao động thuộc Ủy ban nhân dân cấp tỉnh.
+5. Chính phủ quy định chi tiết Điều này.",2,Top 1 và Top 2 cung cấp đầy đủ bằng chứng cho cả ngoại lệ Điều 108 lẫn 3 nội dung phải thỏa thuận khi làm thêm giờ.
